@@ -22,27 +22,6 @@ function onUpdateFavoriteTools() {
 </script>
 
 <template>
-  <!-- 首页顶部通栏广告预留 -->
-  <div>
- style="margin:20px auto;text-align:center;padding:10px;border:1px solid #eee;border-radius:8px;">
-    广告预留区
-  </div>
-
-  <!-- 下面你原本所有代码不动 -->
-  <div>
-    ...原有页面内容
-  </div>
-</template>
-<template>
-  <!-- 首页顶部广告预留 -->
-  <div style="margin:20px auto;text-align:center;padding:10px;border:1px solid #eee;border-radius:8px;">
-    广告预留区
-  </div>
-
-  <!-- 下面原有首页所有代码不动 -->
-  <div>
-    页面原有内容...
-  </div>
 </template>
   <div class="pt-50px">
     <div class="grid-wrapper">
