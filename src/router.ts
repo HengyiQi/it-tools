@@ -5,7 +5,6 @@ import NotFound from './pages/404.page.vue';
 import { tools } from './tools';
 import { config } from './config';
 import { routes as demoRoutes } from './ui/demo/demo.routes';
-
 const toolsRoutes = tools.map(({ path, name, component, ...config }) => ({
   path,
   name,
@@ -17,7 +16,6 @@ const toolsRedirectRoutes = tools
   .flatMap(
     ({ path, redirectFrom }) => redirectFrom?.map(redirectSource => ({ path: redirectSource, redirect: path })) ?? [],
   );
-
 const router = createRouter({
   history: createWebHistory(config.app.baseUrl),
   routes: [
@@ -34,18 +32,17 @@ const router = createRouter({
     ...toolsRoutes,
     ...toolsRedirectRoutes,
     ...(config.app.env === 'development' ? demoRoutes : []),
-{
-  path: '/privacy',
-  name: 'privacy',
-  component: () => import('./views/Privacy.vue')
-},
-{
-  path: '/contact',
-  name: 'contact',
-  component: () => import('./views/Contact.vue')
-},
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import('./views/Privacy.vue')
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('./views/Contact.vue')
+    },
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   ],
 });
-
 export default router;
