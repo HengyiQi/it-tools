@@ -23,7 +23,8 @@ function onUpdateFavoriteTools() {
 
 <template>
   <!-- 首页顶部通栏广告预留 -->
-  <div style="margin:20px auto;text-align:center;padding:10px;border:1px solid #eee;border-radius:8px;">
+  <div>
+ style="margin:20px auto;text-align:center;padding:10px;border:1px solid #eee;border-radius:8px;">
     广告预留区
   </div>
 
