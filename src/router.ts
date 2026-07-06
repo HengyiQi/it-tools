@@ -34,6 +34,21 @@ const router = createRouter({
     ...toolsRoutes,
     ...toolsRedirectRoutes,
     ...(config.app.env === 'development' ? demoRoutes : []),
+{
+  path: '/privacy',
+  name: 'privacy',
+  component: () => import('./views/Privacy.vue')
+},
+{
+  path: '/about',
+  name: 'about',
+  component: () => import('./views/About.vue')
+},
+{
+  path: '/contact',
+  name: 'contact',
+  component: () => import('./views/Contact.vue')
+},
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   ],
 });

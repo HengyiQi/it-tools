@@ -112,3 +112,9 @@ const themeVars = useThemeVars();
   }
 }
 </style>
+<!-- 合规页面入口，AdSense必备 -->
+<div style="margin-top:40px;border-top:1px solid #eee;padding-top:20px;">
+  <n-menu-item to="/privacy">隐私政策</n-menu-item>
+  <n-menu-item to="/about">关于我们</n-menu-item>
+  <n-menu-item to="/contact">联系我们</n-menu-item>
+</div>
