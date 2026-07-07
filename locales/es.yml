@@ -1,4 +1,4 @@
-home:
+﻿home:
   categories:
     newestTools: Nuevas herramientas
     favoriteTools: 'Tus herramientas favoritas'
@@ -14,7 +14,7 @@ home:
     title: 'Te gustan las it-tools?'
     p1: 'Danos una estrella en'
     githubRepository: 'Repositorio de IT-Tools en GitHub'
-    p2: 'o síguenos en'
+    p2: 'o s铆guenos en'
     twitterXAccount: 'Cuenta de X de IT-Tools'
     thankYou: 'Muchas gracias!'
   nav:
@@ -31,28 +31,28 @@ about:
   content: >
     # Sobre IT-Tools
 
-    Este maravilloso sitio web, hecho con ❤ por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) , agrega herramientas útiles para desarrolladores y personas que trabajan en IT. Si lo encuentra útil, no dude en compartirlo con las personas que crea que también pueden encontrarlo útil y ¡no olvide marcarlo como favorito en su barra de accesos directos!
+    Este maravilloso sitio web, hecho con 鉂?por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) , agrega herramientas 煤tiles para desarrolladores y personas que trabajan en IT. Si lo encuentra 煤til, no dude en compartirlo con las personas que crea que tambi茅n pueden encontrarlo 煤til y 隆no olvide marcarlo como favorito en su barra de accesos directos!
 
-    IT Tools es de código abierto (under the GPL-3.0 license) y gratis, y siempre lo será, pero me cuesta dinero alojar y renovar el nombre de dominio. Si desea apoyar mi trabajo y animarme a agregar más herramientas, considere apoyarme a través de[sponsoring me](https://www.buymeacoffee.com/cthmsst).
+    IT Tools es de c贸digo abierto (under the GPL-3.0 license) y gratis, y siempre lo ser谩, pero me cuesta dinero alojar y renovar el nombre de dominio. Si desea apoyar mi trabajo y animarme a agregar m谩s herramientas, considere apoyarme a trav茅s de[sponsoring me](https://www.buymeacoffee.com/cthmsst).
 
-    ## Tecnologías
+    ## Tecnolog铆as
 
-    IT Tools está creado en Vue.js (Vue 3) con la biblioteca de componentes Naive UI y Vercel lo aloja y lo implementa continuamente. En algunas herramientas se utilizan bibliotecas de código abierto de terceros; puede encontrar la lista completa en [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) archivo del repositorio.
+    IT Tools est谩 creado en Vue.js (Vue 3) con la biblioteca de componentes Naive UI y Vercel lo aloja y lo implementa continuamente. En algunas herramientas se utilizan bibliotecas de c贸digo abierto de terceros; puede encontrar la lista completa en [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) archivo del repositorio.
 
-    ## ¿Encontraste un error? ¿Falta una herramienta?
+    ## 驴Encontraste un error? 驴Falta una herramienta?
 
-    Si necesita una herramienta que actualmente no está presente aquí y cree que puede ser útil, puede enviar una solicitud de función en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
+    Si necesita una herramienta que actualmente no est谩 presente aqu铆 y cree que puede ser 煤til, puede enviar una solicitud de funci贸n en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
 
-    Y si encontró un error o algo no funciona como se esperaba, presente un reporte de error en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
+    Y si encontr贸 un error o algo no funciona como se esperaba, presente un reporte de error en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
 
 404:
   notFound: '404 Not Found'
-  sorry: 'Lo sentimos, esta página no parece existir'
-  maybe: 'Tal vez el caché esté haciendo cosas raras, ¿probamos a refrescar forzosamente?'
+  sorry: 'Lo sentimos, esta p谩gina no parece existir'
+  maybe: 'Tal vez el cach茅 est茅 haciendo cosas raras, 驴probamos a refrescar forzosamente?'
   backHome: 'Back home'
 favoriteButton:
   remove: 'Quitar de favoritos'
-  add: 'Añadir a favoritos'
+  add: 'A帽adir a favoritos'
 toolCard:
   new: Nuevo
 search:
@@ -70,3 +70,8 @@ tools:
     measurement: Measurement
     text: Text
     data: Data
+
+ads:
+  dismissed: 'Ad dismissed'
+  click: 'Ad clicked'
+  label: 'Advertisement'

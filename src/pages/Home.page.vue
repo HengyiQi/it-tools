@@ -1,45 +1,52 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { IconDragDrop, IconHeart } from '@tabler/icons-vue';
 import { useHead } from '@vueuse/head';
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import Draggable from 'vuedraggable';
 import ColoredCard from '../components/ColoredCard.vue';
 import ToolCard from '../components/ToolCard.vue';
+import AdBanner from '../components/AdBanner.vue';
 import { useToolStore } from '@/tools/tools.store';
 import { config } from '@/config';
+import { useTracker } from '@/modules/tracker/tracker.services';
 
 const toolStore = useToolStore();
-
-useHead({ title: 'IT Tools - Handy online tools for developers' });
-const { t } = useI18n();
-<script setup lang="ts">
-import { IconDragDrop, IconHeart } from '@tabler/icons-vue';
-import { useHead } from '@vueuse/head';
-import { computed } from 'vue';
-import Draggable from 'vuedraggable';
-import ColoredCard from '../components/ColoredCard.vue';
-import ToolCard from '../components/ToolCard.vue';
-import { useToolStore } from '@/tools/tools.store';
-import { config } from '@/config';
-
-const toolStore = useToolStore();
+const { tracker } = useTracker();
 
 useHead({ title: 'IT Tools - Handy online tools for developers' });
 const { t } = useI18n();
 
 const favoriteTools = computed(() => toolStore.favoriteTools);
+const showHomeAd = ref(true);
 
 // Update favorite tools order when drag is finished
 function onUpdateFavoriteTools() {
-  toolStore.updateFavoriteTools(favoriteTools.value); // Update the store with the new order
+  toolStore.updateFavoriteTools(favoriteTools.value);
+}
+
+function handleAdClick() {
+  tracker.trackEvent({ eventName: 'Home Top Ad Clicked' });
 }
 </script>
 
 <template>
   <!-- 顶部广告位 -->
-  <div style="margin:20px auto;text-align:center;padding:10px;border:1px solid #eee;border-radius:8px;">
-    广告预留区
-  </div>
+  <AdBanner
+    v-if="showHomeAd"
+    position="home-top"
+    @close="showHomeAd = false"
+    @click="handleAdClick"
+  >
+    <!--
+      在这里插入您的广告代码，例如：
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="XXXXXXXXXX"
+           data-ad-format="auto"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    -->
+  </AdBanner>
 
   <div class="container">
     <div class="pt-50px">
@@ -105,134 +112,12 @@ function onUpdateFavoriteTools() {
       </div>
     </div>
   </div>
-</template>
 
-<style scoped lang="less">
-.height-enter-active,
-.height-leave-active {
-  transition: all 0.5s ease-in-out;
-  overflow: hidden;
-  max-height: 500px;
-}
-
-.height-enter-from,
-.height-leave-to {
-  max-height: 42px;
-  overflow: hidden;
-  opacity: 0;
-  margin-bottom: 0;
-}
-
-.ghost-favorites-draggable {
-  opacity: 0.4;
-  background-color: #ccc;
-  border: 2px dashed #666;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transform: scale(1.1);
-  animation: ghost-favorites-draggable-animation 0.2s ease-out;
-}
-
-@keyframes ghost-favorites-draggable-animation {
-  0% {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  100% {
-    opacity: 0.4;
-    transform: scale(1.0);
-  }
-}
-</style>
-const favoriteTools = computed(() => toolStore.favoriteTools);
-
-// Update favorite tools order when drag is finished
-function onUpdateFavoriteTools() {
-  toolStore.updateFavoriteTools(favoriteTools.value); // Update the store with the new order
-}
-</script>
-
-<template>
-  <!-- 顶部广告位，单独一层div，成对闭合，不会乱标签 -->
-  <div style="margin:20px auto;text-align:center;padding:10px;border:1px solid #eee;border-radius:8px;">
-    广告预留区
-  </div>
-
-  <!-- 下面是你页面原本所有内容，不要动原来的代码 -->
-  <div class="container">
-    你原来所有代码不动，不要随便增减 </div>
-  </div>
-</template>
-
-<script setup>
-// 你原本的script代码不变
-</script>
-
-<style scoped>
-/* 你原本样式不变 */
-</style>
-</template>
-  <div class="pt-50px">
-    <div class="grid-wrapper">
-      <div class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-        <ColoredCard v-if="config.showBanner" :title="$t('home.follow.title')" :icon="IconHeart">
-          {{ $t('home.follow.p1') }}
-          <a
-            href="https://github.com/CorentinTh/it-tools"
-            rel="noopener"
-            target="_blank"
-            :aria-label="$t('home.follow.githubRepository')"
-          >GitHub</a>
-          {{ $t('home.follow.p2') }}
-          <a
-            href="https://x.com/ittoolsdottech"
-            rel="noopener"
-            target="_blank"
-            :aria-label="$t('home.follow.twitterXAccount')"
-          >X</a>.
-          {{ $t('home.follow.thankYou') }}
-          <n-icon :component="IconHeart" />
-        </ColoredCard>
-      </div>
-
-      <transition name="height">
-        <div v-if="toolStore.favoriteTools.length > 0">
-          <h3 class="mb-5px mt-25px text-neutral-400 font-500">
-            {{ $t('home.categories.favoriteTools') }}
-            <c-tooltip :tooltip="$t('home.categories.favoritesDndToolTip')">
-              <n-icon :component="IconDragDrop" size="18" />
-            </c-tooltip>
-          </h3>
-          <Draggable
-            :list="favoriteTools"
-            class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4"
-            ghost-class="ghost-favorites-draggable"
-            item-key="name"
-            @end="onUpdateFavoriteTools"
-          >
-            <template #item="{ element: tool }">
-              <ToolCard :tool="tool" />
-            </template>
-          </Draggable>
-        </div>
-      </transition>
-
-      <div v-if="toolStore.newTools.length > 0">
-        <h3 class="mb-5px mt-25px text-neutral-400 font-500">
-          {{ t('home.categories.newestTools') }}
-        </h3>
-        <div class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-          <ToolCard v-for="tool in toolStore.newTools" :key="tool.name" :tool="tool" />
-        </div>
-      </div>
-
-      <h3 class="mb-5px mt-25px text-neutral-400 font-500">
-        {{ $t('home.categories.allTools') }}
-      </h3>
-      <div class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-        <ToolCard v-for="tool in toolStore.tools" :key="tool.name" :tool="tool" />
-      </div>
-    </div>
-  </div>
+  <!-- 底部广告位 -->
+  <AdBanner
+    position="home-bottom"
+    class="mt-20px mb-40px"
+  />
 </template>
 
 <style scoped lang="less">

@@ -1,383 +1,388 @@
-home:
+﻿home:
   categories:
-    newestTools: Công cụ mới nhất
-    favoriteTools: 'Công cụ yêu thích của bạn'
-    allTools: 'Tất cả công cụ'
-    favoritesDndToolTip: 'Kéo thả để sắp xếp lại yêu thích'
-  subtitle: 'Công cụ cho nhà phát triển.'
-  toggleMenu: 'Chuyển đổi menu'
-  home: Trang chủ
-  uiLib: 'Thư viện UI'
-  support: 'Hỗ trợ phát triển IT Tools'
-  buyMeACoffee: 'Ủng hộ tác giả'
+    newestTools: C么ng c峄?m峄沬 nh岷
+    favoriteTools: 'C么ng c峄?y锚u th铆ch c峄 b岷'
+    allTools: 'T岷 c岷?c么ng c峄?
+    favoritesDndToolTip: 'K茅o th岷?膽峄?s岷痯 x岷縫 l岷 y锚u th铆ch'
+  subtitle: 'C么ng c峄?cho nh脿 ph谩t tri峄僴.'
+  toggleMenu: 'Chuy峄僴 膽峄昳 menu'
+  home: Trang ch峄?
+  uiLib: 'Th瓢 vi峄噉 UI'
+  support: 'H峄?tr峄?ph谩t tri峄僴 IT Tools'
+  buyMeACoffee: '峄g h峄?t谩c gi岷?
   follow:
-    title: 'Bạn thích IT-tools?'
-    p1: 'Hãy cho chúng tôi một ngôi sao trên'
+    title: 'B岷 th铆ch IT-tools?'
+    p1: 'H茫y cho ch煤ng t么i m峄檛 ng么i sao tr锚n'
     githubRepository: 'Kho GitHub IT-Tools'
-    p2: 'hoặc theo dõi chúng tôi trên'
-    twitterXAccount: 'Tài khoản X IT-Tools'
-    thankYou: 'Cảm ơn bạn!'
+    p2: 'ho岷穋 theo d玫i ch煤ng t么i tr锚n'
+    twitterXAccount: 'T脿i kho岷 X IT-Tools'
+    thankYou: 'C岷 啤n b岷!'
   nav:
     github: 'Kho GitHub'
     githubRepository: 'Kho GitHub IT-Tools'
-    twitterX: 'Tài khoản X'
-    twitterXAccount: 'Tài khoản X IT Tools'
-    about: 'Về IT-Tools'
-    aboutLabel: 'Giới thiệu'
-    darkMode: 'Chế độ tối'
-    lightMode: 'Chế độ sáng'
-    mode: 'Chuyển đổi chế độ tối/sáng'
+    twitterX: 'T脿i kho岷 X'
+    twitterXAccount: 'T脿i kho岷 X IT Tools'
+    about: 'V峄?IT-Tools'
+    aboutLabel: 'Gi峄沬 thi峄噓'
+    darkMode: 'Ch岷?膽峄?t峄慽'
+    lightMode: 'Ch岷?膽峄?s谩ng'
+    mode: 'Chuy峄僴 膽峄昳 ch岷?膽峄?t峄慽/s谩ng'
 about:
   content: >
-    # Về IT-Tools
+    # V峄?IT-Tools
 
-    Website tuyệt vời này, được tạo ra bằng ❤ bởi [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), tổng hợp các công cụ hữu ích cho nhà phát triển và những người làm việc trong lĩnh vực IT. Nếu bạn thấy nó hữu ích, xin đừng ngần ngại chia sẻ cho những người mà bạn nghĩ sẽ thấy nó hữu ích và đừng quên đánh dấu nó trong thanh lối tắt của bạn!
+    Website tuy峄噒 v峄漣 n脿y, 膽瓢峄 t岷 ra b岷眓g 鉂?b峄焛 [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), t峄昻g h峄 c谩c c么ng c峄?h峄痷 铆ch cho nh脿 ph谩t tri峄僴 v脿 nh峄痭g ng瓢峄漣 l脿m vi峄嘽 trong l末nh v峄眂 IT. N岷縰 b岷 th岷 n贸 h峄痷 铆ch, xin 膽峄玭g ng岷 ng岷 chia s岷?cho nh峄痭g ng瓢峄漣 m脿 b岷 ngh末 s岷?th岷 n贸 h峄痷 铆ch v脿 膽峄玭g qu锚n 膽谩nh d岷 n贸 trong thanh l峄慽 t岷痶 c峄 b岷!
 
-    IT Tools là mã nguồn mở (dưới giấy phép GPL-3.0) và miễn phí, và sẽ luôn như vậy, nhưng tôi phải trả tiền để lưu trữ và gia hạn tên miền. Nếu bạn muốn hỗ trợ công việc của tôi, và khích lệ tôi thêm nhiều công cụ hơn, hãy xem xét hỗ trợ bằng cách [tài trợ cho tôi](https://www.buymeacoffee.com/cthmsst).
+    IT Tools l脿 m茫 ngu峄搉 m峄?(d瓢峄沬 gi岷 ph茅p GPL-3.0) v脿 mi峄卬 ph铆, v脿 s岷?lu么n nh瓢 v岷瓂, nh瓢ng t么i ph岷 tr岷?ti峄乶 膽峄?l瓢u tr峄?v脿 gia h岷 t锚n mi峄乶. N岷縰 b岷 mu峄憂 h峄?tr峄?c么ng vi峄嘽 c峄 t么i, v脿 kh铆ch l峄?t么i th锚m nhi峄乽 c么ng c峄?h啤n, h茫y xem x茅t h峄?tr峄?b岷眓g c谩ch [t脿i tr峄?cho t么i](https://www.buymeacoffee.com/cthmsst).
 
-    ## Công nghệ
+    ## C么ng ngh峄?
 
-    IT Tools được tạo ra bằng Vue.js (Vue 3) với thư viện thành phần Naive UI và được lưu trữ và triển khai liên tục bởi Vercel. Các thư viện mã nguồn mở của bên thứ ba được sử dụng trong một số công cụ, bạn có thể tìm danh sách đầy đủ trong file [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) của kho lưu trữ.
+    IT Tools 膽瓢峄 t岷 ra b岷眓g Vue.js (Vue 3) v峄沬 th瓢 vi峄噉 th脿nh ph岷 Naive UI v脿 膽瓢峄 l瓢u tr峄?v脿 tri峄僴 khai li锚n t峄 b峄焛 Vercel. C谩c th瓢 vi峄噉 m茫 ngu峄搉 m峄?c峄 b锚n th峄?ba 膽瓢峄 s峄?d峄g trong m峄檛 s峄?c么ng c峄? b岷 c贸 th峄?t矛m danh s谩ch 膽岷 膽峄?trong file [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) c峄 kho l瓢u tr峄?
 
-    ## Phát hiện lỗi? Một công cụ bị thiếu?
+    ## Ph谩t hi峄噉 l峄梚? M峄檛 c么ng c峄?b峄?thi岷縰?
 
-    Nếu bạn cần một công cụ hiện không có ở đây, và bạn nghĩ rằng nó có thể hữu ích, bạn được chào đón để gửi một yêu cầu tính năng trong [phần vấn đề](https://github.com/CorentinTh/it-tools/issues/new/choose) trong kho GitHub.
+    N岷縰 b岷 c岷 m峄檛 c么ng c峄?hi峄噉 kh么ng c贸 峄?膽芒y, v脿 b岷 ngh末 r岷眓g n贸 c贸 th峄?h峄痷 铆ch, b岷 膽瓢峄 ch脿o 膽贸n 膽峄?g峄璱 m峄檛 y锚u c岷 t铆nh n膬ng trong [ph岷 v岷 膽峄乚(https://github.com/CorentinTh/it-tools/issues/new/choose) trong kho GitHub.
 
-    Và nếu bạn phát hiện ra một lỗi, hoặc điều gì đó không hoạt động như mong đợi, xin vui lòng gửi báo cáo lỗi trong [phần vấn đề](https://github.com/CorentinTh/it-tools/issues/new/choose) trong kho GitHub.
+    V脿 n岷縰 b岷 ph谩t hi峄噉 ra m峄檛 l峄梚, ho岷穋 膽i峄乽 g矛 膽贸 kh么ng ho岷 膽峄檔g nh瓢 mong 膽峄, xin vui l貌ng g峄璱 b谩o c谩o l峄梚 trong [ph岷 v岷 膽峄乚(https://github.com/CorentinTh/it-tools/issues/new/choose) trong kho GitHub.
 
 404:
-  notFound: '404 Không Tìm Thấy'
-  sorry: 'Xin lỗi, trang này dường như không tồn tại'
-  maybe: 'Lỗi xảy ra có thể do bộ nhớ đệm, hãy (CTRL + F5) để tải lại trang?'
-  backHome: 'Quay về trang chủ'
+  notFound: '404 Kh么ng T矛m Th岷'
+  sorry: 'Xin l峄梚, trang n脿y d瓢峄漬g nh瓢 kh么ng t峄搉 t岷'
+  maybe: 'L峄梚 x岷 ra c贸 th峄?do b峄?nh峄?膽峄噈, h茫y (CTRL + F5) 膽峄?t岷 l岷 trang?'
+  backHome: 'Quay v峄?trang ch峄?
 favoriteButton:
-  remove: 'Xóa khỏi mục yêu thích'
-  add: 'Thêm vào mục yêu thích'
+  remove: 'X贸a kh峄廼 m峄 y锚u th铆ch'
+  add: 'Th锚m v脿o m峄 y锚u th铆ch'
 toolCard:
-  new: Mới
+  new: M峄沬
 search:
-  label: Tìm kiếm
+  label: T矛m ki岷縨
 tools:
   categories:
-    favorite-tools: 'Công cụ yêu thích của bạn'
-    crypto: Mã hóa
-    converter: Chuyển đổi
+    favorite-tools: 'C么ng c峄?y锚u th铆ch c峄 b岷'
+    crypto: M茫 h贸a
+    converter: Chuy峄僴 膽峄昳
     web: Web
-    images and videos: 'Hình ảnh & Video'
-    development: Phát triển
-    network: Mạng
-    math: Toán học
-    measurement: Đo lường
-    text: Văn bản
-    data: Dữ liệu
+    images and videos: 'H矛nh 岷h & Video'
+    development: Ph谩t tri峄僴
+    network: M岷g
+    math: To谩n h峄峜
+    measurement: 膼o l瓢峄漬g
+    text: V膬n b岷
+    data: D峄?li峄噓
 
   password-strength-analyser:
-    title: Bộ phân tích độ mạnh mật khẩu
-    description: Khám phá độ mạnh của mật khẩu của bạn với công cụ phân tích độ mạnh mật khẩu chỉ chạy trên phía máy khách và ước tính thời gian phá mật khẩu.
+    title: B峄?ph芒n t铆ch 膽峄?m岷h m岷璽 kh岷﹗
+    description: Kh谩m ph谩 膽峄?m岷h c峄 m岷璽 kh岷﹗ c峄 b岷 v峄沬 c么ng c峄?ph芒n t铆ch 膽峄?m岷h m岷璽 kh岷﹗ ch峄?ch岷 tr锚n ph铆a m谩y kh谩ch v脿 瓢峄沜 t铆nh th峄漣 gian ph谩 m岷璽 kh岷﹗.
 
   chronometer:
-    title: Đồng hồ bấm giờ
-    description: Giám sát thời gian của một sự việc. Cơ bản là một đồng hồ bấm giờ với các tính năng đơn giản.
+    title: 膼峄搉g h峄?b岷 gi峄?
+    description: Gi谩m s谩t th峄漣 gian c峄 m峄檛 s峄?vi峄嘽. C啤 b岷 l脿 m峄檛 膽峄搉g h峄?b岷 gi峄?v峄沬 c谩c t铆nh n膬ng 膽啤n gi岷.
 
   token-generator:
-    title: Trình tạo mã thông báo
-    description: Tạo chuỗi ngẫu nhiên với các ký tự bạn muốn, chữ hoa hoặc chữ thường, số và/hoặc ký tự đặc biệt.
+    title: Tr矛nh t岷 m茫 th么ng b谩o
+    description: T岷 chu峄梚 ng岷玼 nhi锚n v峄沬 c谩c k媒 t峄?b岷 mu峄憂, ch峄?hoa ho岷穋 ch峄?th瓢峄漬g, s峄?v脿/ho岷穋 k媒 t峄?膽岷穋 bi峄噒.
 
-    uppercase: Chữ hoa (ABC...)
-    lowercase: Chữ thường (abc...)
-    numbers: Số (123...)
-    symbols: Ký tự đặc biệt (!-;...)
-    length: Độ dài
-    tokenPlaceholder: 'Mã thông báo...'
-    copied: Mã thông báo đã được sao chép vào clipboard
+    uppercase: Ch峄?hoa (ABC...)
+    lowercase: Ch峄?th瓢峄漬g (abc...)
+    numbers: S峄?(123...)
+    symbols: K媒 t峄?膽岷穋 bi峄噒 (!-;...)
+    length: 膼峄?d脿i
+    tokenPlaceholder: 'M茫 th么ng b谩o...'
+    copied: M茫 th么ng b谩o 膽茫 膽瓢峄 sao ch茅p v脿o clipboard
     button:
-      copy: Sao chép
-      refresh: Làm mới
+      copy: Sao ch茅p
+      refresh: L脿m m峄沬
 
   percentage-calculator:
-    title: Máy tính phần trăm
-    description: Dễ dàng tính toán phần trăm từ một giá trị đến giá trị khác, hoặc từ một phần trăm đến một giá trị.
+    title: M谩y t铆nh ph岷 tr膬m
+    description: D峄?d脿ng t铆nh to谩n ph岷 tr膬m t峄?m峄檛 gi谩 tr峄?膽岷縩 gi谩 tr峄?kh谩c, ho岷穋 t峄?m峄檛 ph岷 tr膬m 膽岷縩 m峄檛 gi谩 tr峄?
 
   svg-placeholder-generator:
-    title: Trình tạo hình ảnh SVG giả định
-    description: Tạo hình ảnh svg để sử dụng làm giả định trong ứng dụng của bạn.
+    title: Tr矛nh t岷 h矛nh 岷h SVG gi岷?膽峄媙h
+    description: T岷 h矛nh 岷h svg 膽峄?s峄?d峄g l脿m gi岷?膽峄媙h trong 峄﹏g d峄g c峄 b岷.
 
   json-to-csv:
-    title: Chuyển đổi JSON thành CSV
-    description: Chuyển đổi JSON thành CSV với việc tự động phát hiện tiêu đề.
+    title: Chuy峄僴 膽峄昳 JSON th脿nh CSV
+    description: Chuy峄僴 膽峄昳 JSON th脿nh CSV v峄沬 vi峄嘽 t峄?膽峄檔g ph谩t hi峄噉 ti锚u 膽峄?
 
   camera-recorder:
-    title: Ghi lại camera
-    description: Chụp ảnh hoặc quay video từ webcam hoặc máy ảnh của bạn.
+    title: Ghi l岷 camera
+    description: Ch峄 岷h ho岷穋 quay video t峄?webcam ho岷穋 m谩y 岷h c峄 b岷.
   keycode-info:
-    title: Thông tin Keycode
-    description: Tìm mã keycode, mã, vị trí và các phím điều khiển của bất kỳ phím nào được nhấn.
+    title: Th么ng tin Keycode
+    description: T矛m m茫 keycode, m茫, v峄?tr铆 v脿 c谩c ph铆m 膽i峄乽 khi峄僴 c峄 b岷 k峄?ph铆m n脿o 膽瓢峄 nh岷.
 
   emoji-picker:
-    title: Bộ chọn biểu tượng cảm xúc
-    description: Sao chép và dán biểu tượng cảm xúc một cách dễ dàng và nhận giá trị unicode và mã điểm của mỗi biểu tượng cảm xúc.
+    title: B峄?ch峄峮 bi峄僽 t瓢峄g c岷 x煤c
+    description: Sao ch茅p v脿 d谩n bi峄僽 t瓢峄g c岷 x煤c m峄檛 c谩ch d峄?d脿ng v脿 nh岷璶 gi谩 tr峄?unicode v脿 m茫 膽i峄僲 c峄 m峄梚 bi峄僽 t瓢峄g c岷 x煤c.
 
   color-converter:
-    title: Trình chuyển đổi màu
-    description: Chuyển đổi màu giữa các định dạng khác nhau (hex, rgb, hsl và tên css)
+    title: Tr矛nh chuy峄僴 膽峄昳 m脿u
+    description: Chuy峄僴 膽峄昳 m脿u gi峄痑 c谩c 膽峄媙h d岷g kh谩c nhau (hex, rgb, hsl v脿 t锚n css)
 
   bcrypt:
     title: Bcrypt
-    description: Mã hóa và so sánh chuỗi văn bản sử dụng bcrypt. Bcrypt là một hàm mã hóa mật khẩu dựa trên thuật toán Blowfish.
+    description: M茫 h贸a v脿 so s谩nh chu峄梚 v膬n b岷 s峄?d峄g bcrypt. Bcrypt l脿 m峄檛 h脿m m茫 h贸a m岷璽 kh岷﹗ d峄盿 tr锚n thu岷璽 to谩n Blowfish.
   crontab-generator:
-    title: Trình tạo Crontab
-    description: Xác thực và tạo crontab và lấy mô tả đọc được của lịch trình cron.
+    title: Tr矛nh t岷 Crontab
+    description: X谩c th峄眂 v脿 t岷 crontab v脿 l岷 m么 t岷?膽峄峜 膽瓢峄 c峄 l峄媍h tr矛nh cron.
   http-status-codes:
-    title: Mã trạng thái HTTP
-    description: Danh sách tất cả các mã trạng thái HTTP, tên và ý nghĩa của chúng.
+    title: M茫 tr岷g th谩i HTTP
+    description: Danh s谩ch t岷 c岷?c谩c m茫 tr岷g th谩i HTTP, t锚n v脿 媒 ngh末a c峄 ch煤ng.
 
   sql-prettify:
-    title: Định dạng và làm đẹp SQL
-    description: Định dạng và làm đẹp các truy vấn SQL của bạn trực tuyến (hỗ trợ nhiều ngôn ngữ SQL khác nhau).
+    title: 膼峄媙h d岷g v脿 l脿m 膽岷筽 SQL
+    description: 膼峄媙h d岷g v脿 l脿m 膽岷筽 c谩c truy v岷 SQL c峄 b岷 tr峄眂 tuy岷縩 (h峄?tr峄?nhi峄乽 ng么n ng峄?SQL kh谩c nhau).
 
   benchmark-builder:
-    title: Trình tạo bảng đánh giá
-    description: Dễ dàng so sánh thời gian thực thi của các nhiệm vụ với trình tạo bảng đánh giá trực tuyến đơn giản này.
+    title: Tr矛nh t岷 b岷g 膽谩nh gi谩
+    description: D峄?d脿ng so s谩nh th峄漣 gian th峄眂 thi c峄 c谩c nhi峄噈 v峄?v峄沬 tr矛nh t岷 b岷g 膽谩nh gi谩 tr峄眂 tuy岷縩 膽啤n gi岷 n脿y.
   git-memo:
-    title: Lệnh Git
-    description: Git là một phần mềm quản lý phiên bản phân tán. Với bảng ghi chú này, bạn sẽ có thể truy cập nhanh vào các lệnh Git phổ biến nhất.
+    title: L峄噉h Git
+    description: Git l脿 m峄檛 ph岷 m峄乵 qu岷 l媒 phi锚n b岷 ph芒n t谩n. V峄沬 b岷g ghi ch煤 n脿y, b岷 s岷?c贸 th峄?truy c岷璸 nhanh v脿o c谩c l峄噉h Git ph峄?bi岷縩 nh岷.
 
   slugify-string:
-    title: Chuyển đổi chuỗi thành slug
-    description: Biến đổi chuỗi thành dạng an toàn để sử dụng trong URL, tên file và ID.
+    title: Chuy峄僴 膽峄昳 chu峄梚 th脿nh slug
+    description: Bi岷縩 膽峄昳 chu峄梚 th脿nh d岷g an to脿n 膽峄?s峄?d峄g trong URL, t锚n file v脿 ID.
 
   encryption:
-    title: Mã hóa / giải mã văn bản
-    description: Mã hóa và giải mã văn bản rõ bằng cách sử dụng thuật toán mã hóa như AES, TripleDES, Rabbit hoặc RC4.
+    title: M茫 h贸a / gi岷 m茫 v膬n b岷
+    description: M茫 h贸a v脿 gi岷 m茫 v膬n b岷 r玫 b岷眓g c谩ch s峄?d峄g thu岷璽 to谩n m茫 h贸a nh瓢 AES, TripleDES, Rabbit ho岷穋 RC4.
 
   random-port-generator:
-    title: Trình tạo số cổng ngẫu nhiên
-    description: Tạo số cổng ngẫu nhiên nằm ngoài phạm vi của các cổng "biết được" (0-1023).
+    title: Tr矛nh t岷 s峄?c峄昻g ng岷玼 nhi锚n
+    description: T岷 s峄?c峄昻g ng岷玼 nhi锚n n岷眒 ngo脿i ph岷 vi c峄 c谩c c峄昻g "bi岷縯 膽瓢峄" (0-1023).
 
   yaml-prettify:
-    title: Định dạng và làm đẹp YAML
-    description: Định dạng chuỗi YAML của bạn thành một định dạng dễ đọc và thân thiện với con người.
+    title: 膼峄媙h d岷g v脿 l脿m 膽岷筽 YAML
+    description: 膼峄媙h d岷g chu峄梚 YAML c峄 b岷 th脿nh m峄檛 膽峄媙h d岷g d峄?膽峄峜 v脿 th芒n thi峄噉 v峄沬 con ng瓢峄漣.
 
   eta-calculator:
-    title: Máy tính ETA
-    description: Một máy tính ETA (Thời gian dự kiến đến) để biết thời gian kết thúc xấp xỉ của một nhiệm vụ, ví dụ như thời điểm kết thúc của một quá trình tải xuống.
+    title: M谩y t铆nh ETA
+    description: M峄檛 m谩y t铆nh ETA (Th峄漣 gian d峄?ki岷縩 膽岷縩) 膽峄?bi岷縯 th峄漣 gian k岷縯 th煤c x岷 x峄?c峄 m峄檛 nhi峄噈 v峄? v铆 d峄?nh瓢 th峄漣 膽i峄僲 k岷縯 th煤c c峄 m峄檛 qu谩 tr矛nh t岷 xu峄憂g.
 
   roman-numeral-converter:
-    title: Bộ chuyển đổi số La Mã
-    description: Chuyển đổi số La Mã thành số và chuyển đổi số thành số La Mã.
+    title: B峄?chuy峄僴 膽峄昳 s峄?La M茫
+    description: Chuy峄僴 膽峄昳 s峄?La M茫 th脿nh s峄?v脿 chuy峄僴 膽峄昳 s峄?th脿nh s峄?La M茫.
 
   hmac-generator:
-    title: Máy tạo HMAC
-    description: Tính toán mã xác thực thông điệp dựa trên hash (HMAC) sử dụng một khóa bí mật và hàm băm yêu thích của bạn.
+    title: M谩y t岷 HMAC
+    description: T铆nh to谩n m茫 x谩c th峄眂 th么ng 膽i峄噋 d峄盿 tr锚n hash (HMAC) s峄?d峄g m峄檛 kh贸a b铆 m岷璽 v脿 h脿m b膬m y锚u th铆ch c峄 b岷.
 
   bip39-generator:
-    title: Trình tạo BIP39 passphrase
-    description: Tạo BIP39 passphrase từ mnemonic hiện có hoặc ngẫu nhiên, hoặc lấy mnemonic từ passphrase.
+    title: Tr矛nh t岷 BIP39 passphrase
+    description: T岷 BIP39 passphrase t峄?mnemonic hi峄噉 c贸 ho岷穋 ng岷玼 nhi锚n, ho岷穋 l岷 mnemonic t峄?passphrase.
   base64-file-converter:
-    title: Trình chuyển đổi tệp Base64
-    description: Chuyển đổi chuỗi, tệp hoặc hình ảnh thành mã Base64.
+    title: Tr矛nh chuy峄僴 膽峄昳 t峄噋 Base64
+    description: Chuy峄僴 膽峄昳 chu峄梚, t峄噋 ho岷穋 h矛nh 岷h th脿nh m茫 Base64.
   list-converter:
-    title: Trình chuyển đổi danh sách
-    description: Công cụ này có thể xử lý dữ liệu dựa trên cột và áp dụng các thay đổi khác nhau (đảo ngược, thêm tiền tố và hậu tố, đảo danh sách, sắp xếp danh sách, giảm giá trị thành chữ thường, cắt giá trị) cho mỗi hàng.
+    title: Tr矛nh chuy峄僴 膽峄昳 danh s谩ch
+    description: C么ng c峄?n脿y c贸 th峄?x峄?l媒 d峄?li峄噓 d峄盿 tr锚n c峄檛 v脿 谩p d峄g c谩c thay 膽峄昳 kh谩c nhau (膽岷 ng瓢峄, th锚m ti峄乶 t峄?v脿 h岷璾 t峄? 膽岷 danh s谩ch, s岷痯 x岷縫 danh s谩ch, gi岷 gi谩 tr峄?th脿nh ch峄?th瓢峄漬g, c岷痶 gi谩 tr峄? cho m峄梚 h脿ng.
 
   base64-string-converter:
-    title: Trình mã hóa/giải mã chuỗi Base64
-    description: Đơn giản mã hóa và giải mã chuỗi thành mã Base64.
+    title: Tr矛nh m茫 h贸a/gi岷 m茫 chu峄梚 Base64
+    description: 膼啤n gi岷 m茫 h贸a v脿 gi岷 m茫 chu峄梚 th脿nh m茫 Base64.
   toml-to-yaml:
-    title: Chuyển đổi TOML thành YAML
-    description: Phân tích và chuyển đổi TOML thành YAML.
+    title: Chuy峄僴 膽峄昳 TOML th脿nh YAML
+    description: Ph芒n t铆ch v脿 chuy峄僴 膽峄昳 TOML th脿nh YAML.
 
   math-evaluator:
-    title: Trình đánh giá toán học
-    description: Một máy tính để tính toán biểu thức toán học. Bạn có thể sử dụng các hàm như sqrt, cos, sin, abs, v.v.
+    title: Tr矛nh 膽谩nh gi谩 to谩n h峄峜
+    description: M峄檛 m谩y t铆nh 膽峄?t铆nh to谩n bi峄僽 th峄ヽ to谩n h峄峜. B岷 c贸 th峄?s峄?d峄g c谩c h脿m nh瓢 sqrt, cos, sin, abs, v.v.
 
   json-to-yaml-converter:
-    title: Chuyển đổi JSON sang YAML
-    description: Chuyển đổi đơn giản JSON sang YAML với công cụ chuyển đổi trực tuyến này.
+    title: Chuy峄僴 膽峄昳 JSON sang YAML
+    description: Chuy峄僴 膽峄昳 膽啤n gi岷 JSON sang YAML v峄沬 c么ng c峄?chuy峄僴 膽峄昳 tr峄眂 tuy岷縩 n脿y.
 
   url-parser:
-    title: Trình phân tích URL
-    description: Phân tích một chuỗi URL để lấy tất cả các phần khác nhau (giao thức, nguồn gốc, tham số, cổng, tên người dùng-mật khẩu, ...)
+    title: Tr矛nh ph芒n t铆ch URL
+    description: Ph芒n t铆ch m峄檛 chu峄梚 URL 膽峄?l岷 t岷 c岷?c谩c ph岷 kh谩c nhau (giao th峄ヽ, ngu峄搉 g峄慶, tham s峄? c峄昻g, t锚n ng瓢峄漣 d霉ng-m岷璽 kh岷﹗, ...)
 
   iban-validator-and-parser:
-    title: Kiểm tra và phân tích số IBAN
-    description: Xác thực và phân tích số IBAN. Kiểm tra tính hợp lệ của IBAN và lấy thông tin về quốc gia, BBAN, xem có phải là QR-IBAN và định dạng thân thiện của IBAN.
+    title: Ki峄僲 tra v脿 ph芒n t铆ch s峄?IBAN
+    description: X谩c th峄眂 v脿 ph芒n t铆ch s峄?IBAN. Ki峄僲 tra t铆nh h峄 l峄?c峄 IBAN v脿 l岷 th么ng tin v峄?qu峄慶 gia, BBAN, xem c贸 ph岷 l脿 QR-IBAN v脿 膽峄媙h d岷g th芒n thi峄噉 c峄 IBAN.
 
   user-agent-parser:
-    title: Trình phân tích User-agent
-    description: Phát hiện và phân tích trình duyệt, engine, hệ điều hành, CPU và kiểu/mô hình thiết bị từ chuỗi user-agent.
+    title: Tr矛nh ph芒n t铆ch User-agent
+    description: Ph谩t hi峄噉 v脿 ph芒n t铆ch tr矛nh duy峄噒, engine, h峄?膽i峄乽 h脿nh, CPU v脿 ki峄僽/m么 h矛nh thi岷縯 b峄?t峄?chu峄梚 user-agent.
 
   numeronym-generator:
-    title: Trình tạo Numeronym
-    description: Numeronym là một từ mà một số được sử dụng để tạo thành một từ viết tắt. Ví dụ, "i18n" là một numeronym của "internationalization" trong đó số 18 đại diện cho số chữ cái giữa chữ i đầu tiên và chữ n cuối cùng trong từ.
+    title: Tr矛nh t岷 Numeronym
+    description: Numeronym l脿 m峄檛 t峄?m脿 m峄檛 s峄?膽瓢峄 s峄?d峄g 膽峄?t岷 th脿nh m峄檛 t峄?vi岷縯 t岷痶. V铆 d峄? "i18n" l脿 m峄檛 numeronym c峄 "internationalization" trong 膽贸 s峄?18 膽岷 di峄噉 cho s峄?ch峄?c谩i gi峄痑 ch峄?i 膽岷 ti锚n v脿 ch峄?n cu峄慽 c霉ng trong t峄?
 
   case-converter:
-    title: Chuyển đổi chữ hoa/chữ thường
-    description: Thay đổi kiểu chữ của một chuỗi và chọn giữa các định dạng khác nhau
+    title: Chuy峄僴 膽峄昳 ch峄?hoa/ch峄?th瓢峄漬g
+    description: Thay 膽峄昳 ki峄僽 ch峄?c峄 m峄檛 chu峄梚 v脿 ch峄峮 gi峄痑 c谩c 膽峄媙h d岷g kh谩c nhau
   html-entities:
-    title: Thay thế các ký tự HTML
-    description: Thay thế hoặc bỏ thẻ các ký tự HTML (thay thế <,>, &, " và \' thành phiên bản HTML tương ứng)
+    title: Thay th岷?c谩c k媒 t峄?HTML
+    description: Thay th岷?ho岷穋 b峄?th岷?c谩c k媒 t峄?HTML (thay th岷?<,>, &, " v脿 \' th脿nh phi锚n b岷 HTML t瓢啤ng 峄﹏g)
 
   json-prettify:
-    title: Định dạng và làm đẹp JSON
-    description: Định dạng chuỗi JSON của bạn thành một định dạng dễ đọc và thân thiện với con người.
+    title: 膼峄媙h d岷g v脿 l脿m 膽岷筽 JSON
+    description: 膼峄媙h d岷g chu峄梚 JSON c峄 b岷 th脿nh m峄檛 膽峄媙h d岷g d峄?膽峄峜 v脿 th芒n thi峄噉 v峄沬 con ng瓢峄漣.
 
   docker-run-to-docker-compose-converter:
-    title: Chuyển đổi lệnh docker run thành tệp docker-compose
-    description: Chuyển đổi các lệnh docker run thành tệp docker-compose!
+    title: Chuy峄僴 膽峄昳 l峄噉h docker run th脿nh t峄噋 docker-compose
+    description: Chuy峄僴 膽峄昳 c谩c l峄噉h docker run th脿nh t峄噋 docker-compose!
 
   mac-address-lookup:
-    title: Tra cứu địa chỉ MAC
-    description: Tìm nhà sản xuất và nhà cung cấp của thiết bị dựa trên địa chỉ MAC.
+    title: Tra c峄﹗ 膽峄媋 ch峄?MAC
+    description: T矛m nh脿 s岷 xu岷 v脿 nh脿 cung c岷 c峄 thi岷縯 b峄?d峄盿 tr锚n 膽峄媋 ch峄?MAC.
 
   mime-types:
-    title: Loại Mime
-    description: Chuyển đổi loại mime thành phần mở rộng và ngược lại.
+    title: Lo岷 Mime
+    description: Chuy峄僴 膽峄昳 lo岷 mime th脿nh ph岷 m峄?r峄檔g v脿 ng瓢峄 l岷.
 
   toml-to-json:
-    title: Chuyển đổi TOML thành JSON
-    description: Phân tích và chuyển đổi TOML thành JSON.
+    title: Chuy峄僴 膽峄昳 TOML th脿nh JSON
+    description: Ph芒n t铆ch v脿 chuy峄僴 膽峄昳 TOML th脿nh JSON.
 
   lorem-ipsum-generator:
-    title: Máy tạo văn bản Lorem ipsum
-    description: Lorem ipsum là một đoạn văn bản giả được sử dụng phổ biến để thể hiện hình thức của một tài liệu hoặc một kiểu chữ mà không cần dựa vào nội dung có ý nghĩa
+    title: M谩y t岷 v膬n b岷 Lorem ipsum
+    description: Lorem ipsum l脿 m峄檛 膽o岷 v膬n b岷 gi岷?膽瓢峄 s峄?d峄g ph峄?bi岷縩 膽峄?th峄?hi峄噉 h矛nh th峄ヽ c峄 m峄檛 t脿i li峄噓 ho岷穋 m峄檛 ki峄僽 ch峄?m脿 kh么ng c岷 d峄盿 v脿o n峄檌 dung c贸 媒 ngh末a
 
   qrcode-generator:
-    title: Tạo mã QR
-    description: Tạo và tải xuống mã QR cho một URL hoặc chỉ một đoạn văn bản và tùy chỉnh màu nền và màu chữ.
+    title: T岷 m茫 QR
+    description: T岷 v脿 t岷 xu峄憂g m茫 QR cho m峄檛 URL ho岷穋 ch峄?m峄檛 膽o岷 v膬n b岷 v脿 t霉y ch峄塶h m脿u n峄乶 v脿 m脿u ch峄?
 
   wifi-qrcode-generator:
-    title: Tạo mã QR WiFi
-    description: Tạo và tải xuống mã QR để kết nối nhanh đến mạng WiFi.
+    title: T岷 m茫 QR WiFi
+    description: T岷 v脿 t岷 xu峄憂g m茫 QR 膽峄?k岷縯 n峄慽 nhanh 膽岷縩 m岷g WiFi.
 
   xml-formatter:
-    title: Định dạng XML
-    description: Định dạng chuỗi XML của bạn thành một định dạng dễ đọc và thân thiện với con người.
+    title: 膼峄媙h d岷g XML
+    description: 膼峄媙h d岷g chu峄梚 XML c峄 b岷 th脿nh m峄檛 膽峄媙h d岷g d峄?膽峄峜 v脿 th芒n thi峄噉 v峄沬 con ng瓢峄漣.
 
   temperature-converter:
-    title: Bộ chuyển đổi nhiệt độ
-    description: Chuyển đổi độ nhiệt độ cho Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur và Rømer.
+    title: B峄?chuy峄僴 膽峄昳 nhi峄噒 膽峄?
+    description: Chuy峄僴 膽峄昳 膽峄?nhi峄噒 膽峄?cho Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, R茅aumur v脿 R酶mer.
 
   chmod-calculator:
-    title: Máy tính Chmod
-    description: Tính toán quyền và lệnh chmod của bạn với máy tính Chmod trực tuyến này.
+    title: M谩y t铆nh Chmod
+    description: T铆nh to谩n quy峄乶 v脿 l峄噉h chmod c峄 b岷 v峄沬 m谩y t铆nh Chmod tr峄眂 tuy岷縩 n脿y.
   rsa-key-pair-generator:
-    title: Trình tạo cặp khóa RSA
-    description: Tạo các chứng chỉ pem khóa riêng tư và khóa công khai RSA ngẫu nhiên mới.
+    title: Tr矛nh t岷 c岷穚 kh贸a RSA
+    description: T岷 c谩c ch峄﹏g ch峄?pem kh贸a ri锚ng t瓢 v脿 kh贸a c么ng khai RSA ng岷玼 nhi锚n m峄沬.
 
   html-wysiwyg-editor:
-    title: Trình soạn thảo HTML WYSIWYG
-    description: Trình soạn thảo HTML trực tuyến với trình soạn thảo WYSIWYG đa chức năng, lấy mã nguồn của nội dung ngay lập tức.
+    title: Tr矛nh so岷 th岷 HTML WYSIWYG
+    description: Tr矛nh so岷 th岷 HTML tr峄眂 tuy岷縩 v峄沬 tr矛nh so岷 th岷 WYSIWYG 膽a ch峄ヽ n膬ng, l岷 m茫 ngu峄搉 c峄 n峄檌 dung ngay l岷璸 t峄ヽ.
 
   yaml-to-toml:
     title: YAML sang TOML
-    description: Phân tích và chuyển đổi YAML sang TOML.
+    description: Ph芒n t铆ch v脿 chuy峄僴 膽峄昳 YAML sang TOML.
 
   mac-address-generator:
-    title: Trình tạo địa chỉ MAC
-    description: Nhập số lượng và tiền tố. Địa chỉ MAC sẽ được tạo ra theo kiểu chữ hoa hoặc chữ thường theo lựa chọn của bạn
+    title: Tr矛nh t岷 膽峄媋 ch峄?MAC
+    description: Nh岷璸 s峄?l瓢峄g v脿 ti峄乶 t峄? 膼峄媋 ch峄?MAC s岷?膽瓢峄 t岷 ra theo ki峄僽 ch峄?hoa ho岷穋 ch峄?th瓢峄漬g theo l峄盿 ch峄峮 c峄 b岷
 
   json-diff:
-    title: So sánh JSON
-    description: So sánh hai đối tượng JSON và lấy ra sự khác biệt giữa chúng.
+    title: So s谩nh JSON
+    description: So s谩nh hai 膽峄慽 t瓢峄g JSON v脿 l岷 ra s峄?kh谩c bi峄噒 gi峄痑 ch煤ng.
 
   jwt-parser:
-    title: Giải mã JWT
-    description: Giải mã và hiển thị nội dung của JSON Web Token (jwt).
+    title: Gi岷 m茫 JWT
+    description: Gi岷 m茫 v脿 hi峄僴 th峄?n峄檌 dung c峄 JSON Web Token (jwt).
 
   date-converter:
-    title: Chuyển đổi ngày-tháng
-    description: Chuyển đổi ngày và thời gian sang các định dạng khác nhau
+    title: Chuy峄僴 膽峄昳 ng脿y-th谩ng
+    description: Chuy峄僴 膽峄昳 ng脿y v脿 th峄漣 gian sang c谩c 膽峄媙h d岷g kh谩c nhau
 
   phone-parser-and-formatter:
-    title: Trình phân tích và định dạng số điện thoại
-    description: Phân tích, xác thực và định dạng số điện thoại. Lấy thông tin về số điện thoại, như mã quốc gia, loại, v.v.
+    title: Tr矛nh ph芒n t铆ch v脿 膽峄媙h d岷g s峄?膽i峄噉 tho岷
+    description: Ph芒n t铆ch, x谩c th峄眂 v脿 膽峄媙h d岷g s峄?膽i峄噉 tho岷. L岷 th么ng tin v峄?s峄?膽i峄噉 tho岷, nh瓢 m茫 qu峄慶 gia, lo岷, v.v.
 
   ipv4-subnet-calculator:
-    title: Máy tính mạng con IPv4
-    description: Phân tích các khối CIDR IPv4 của bạn và nhận thông tin về mạng con của bạn.
+    title: M谩y t铆nh m岷g con IPv4
+    description: Ph芒n t铆ch c谩c kh峄慽 CIDR IPv4 c峄 b岷 v脿 nh岷璶 th么ng tin v峄?m岷g con c峄 b岷.
 
   og-meta-generator:
-    title: Trình tạo meta Open Graph
-    description: Tạo các thẻ meta HTML Open Graph và mạng xã hội cho trang web của bạn.
+    title: Tr矛nh t岷 meta Open Graph
+    description: T岷 c谩c th岷?meta HTML Open Graph v脿 m岷g x茫 h峄檌 cho trang web c峄 b岷.
 
   ipv6-ula-generator:
-    title: Trình tạo địa chỉ IPv6 ULA
-    description: Tạo địa chỉ IP cục bộ, không thể định tuyến trên mạng của bạn theo RFC4193.
+    title: Tr矛nh t岷 膽峄媋 ch峄?IPv6 ULA
+    description: T岷 膽峄媋 ch峄?IP c峄 b峄? kh么ng th峄?膽峄媙h tuy岷縩 tr锚n m岷g c峄 b岷 theo RFC4193.
 
   hash-text:
-    title: Mã hóa văn bản
-    description: 'Mã hóa một chuỗi văn bản bằng cách sử dụng các hàm bạn cần: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 hoặc RIPEMD160'
+    title: M茫 h贸a v膬n b岷
+    description: 'M茫 h贸a m峄檛 chu峄梚 v膬n b岷 b岷眓g c谩ch s峄?d峄g c谩c h脿m b岷 c岷: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 ho岷穋 RIPEMD160'
   json-to-toml:
-    title: Chuyển đổi JSON sang TOML
-    description: Phân tích và chuyển đổi JSON sang TOML.
+    title: Chuy峄僴 膽峄昳 JSON sang TOML
+    description: Ph芒n t铆ch v脿 chuy峄僴 膽峄昳 JSON sang TOML.
 
   device-information:
-    title: Thông tin thiết bị
-    description: Lấy thông tin về thiết bị hiện tại của bạn (kích thước màn hình, tỷ lệ pixel, user agent, ...)
+    title: Th么ng tin thi岷縯 b峄?
+    description: L岷 th么ng tin v峄?thi岷縯 b峄?hi峄噉 t岷 c峄 b岷 (k铆ch th瓢峄沜 m脿n h矛nh, t峄?l峄?pixel, user agent, ...)
 
   pdf-signature-checker:
-    title: Kiểm tra chữ ký PDF
-    description: Xác minh chữ ký của một tệp PDF. Một tệp PDF đã được ký có chứa một hoặc nhiều chữ ký có thể được sử dụng để xác định xem nội dung của tệp đã được thay đổi kể từ khi tệp được ký.
+    title: Ki峄僲 tra ch峄?k媒 PDF
+    description: X谩c minh ch峄?k媒 c峄 m峄檛 t峄噋 PDF. M峄檛 t峄噋 PDF 膽茫 膽瓢峄 k媒 c贸 ch峄゛ m峄檛 ho岷穋 nhi峄乽 ch峄?k媒 c贸 th峄?膽瓢峄 s峄?d峄g 膽峄?x谩c 膽峄媙h xem n峄檌 dung c峄 t峄噋 膽茫 膽瓢峄 thay 膽峄昳 k峄?t峄?khi t峄噋 膽瓢峄 k媒.
 
   json-minify:
-    title: Giảm kích thước JSON
-    description: Giảm kích thước và nén JSON của bạn bằng cách loại bỏ khoảng trắng không cần thiết.
+    title: Gi岷 k铆ch th瓢峄沜 JSON
+    description: Gi岷 k铆ch th瓢峄沜 v脿 n茅n JSON c峄 b岷 b岷眓g c谩ch lo岷 b峄?kho岷g tr岷痭g kh么ng c岷 thi岷縯.
 
   ulid-generator:
-    title: Tạo ULID
-    description: Tạo ngẫu nhiên mã định danh duy nhất có thể sắp xếp theo thứ tự từ điển (ULID).
+    title: T岷 ULID
+    description: T岷 ng岷玼 nhi锚n m茫 膽峄媙h danh duy nh岷 c贸 th峄?s岷痯 x岷縫 theo th峄?t峄?t峄?膽i峄僴 (ULID).
   string-obfuscator:
-    title: Mã hóa chuỗi
-    description: Mã hóa một chuỗi (như một bí mật, một IBAN hoặc một mã thông báo) để có thể chia sẻ và nhận dạng mà không tiết lộ nội dung.
+    title: M茫 h贸a chu峄梚
+    description: M茫 h贸a m峄檛 chu峄梚 (nh瓢 m峄檛 b铆 m岷璽, m峄檛 IBAN ho岷穋 m峄檛 m茫 th么ng b谩o) 膽峄?c贸 th峄?chia s岷?v脿 nh岷璶 d岷g m脿 kh么ng ti岷縯 l峄?n峄檌 dung.
 
   base-converter:
-    title: Chuyển đổi cơ số số nguyên
-    description: Chuyển đổi số giữa các cơ số khác nhau (thập phân, thập lục phân, nhị phân, bát phân, base64, ...)
+    title: Chuy峄僴 膽峄昳 c啤 s峄?s峄?nguy锚n
+    description: Chuy峄僴 膽峄昳 s峄?gi峄痑 c谩c c啤 s峄?kh谩c nhau (th岷璸 ph芒n, th岷璸 l峄 ph芒n, nh峄?ph芒n, b谩t ph芒n, base64, ...)
 
   yaml-to-json-converter:
-    title: Trình chuyển đổi YAML sang JSON
-    description: Chuyển đổi YAML sang JSON một cách đơn giản với công cụ chuyển đổi trực tuyến này.
+    title: Tr矛nh chuy峄僴 膽峄昳 YAML sang JSON
+    description: Chuy峄僴 膽峄昳 YAML sang JSON m峄檛 c谩ch 膽啤n gi岷 v峄沬 c么ng c峄?chuy峄僴 膽峄昳 tr峄眂 tuy岷縩 n脿y.
 
   uuid-generator:
-    title: Trình tạo UUID
-    description: Một UUID (Universally Unique Identifier) là một số 128 bit được sử dụng để xác định thông tin trong hệ thống máy tính. Số lượng UUID có thể có là 16^32, tương đương với 2^128 hoặc khoảng 3.4x10^38 (rất lớn!).
+    title: Tr矛nh t岷 UUID
+    description: M峄檛 UUID (Universally Unique Identifier) l脿 m峄檛 s峄?128 bit 膽瓢峄 s峄?d峄g 膽峄?x谩c 膽峄媙h th么ng tin trong h峄?th峄憂g m谩y t铆nh. S峄?l瓢峄g UUID c贸 th峄?c贸 l脿 16^32, t瓢啤ng 膽瓢啤ng v峄沬 2^128 ho岷穋 kho岷g 3.4x10^38 (r岷 l峄沶!).
 
   ipv4-address-converter:
-    title: Chuyển đổi địa chỉ Ipv4
-    description: Chuyển đổi địa chỉ ip thành số thập phân, nhị phân, thập lục phân hoặc thậm chí thành ipv6
+    title: Chuy峄僴 膽峄昳 膽峄媋 ch峄?Ipv4
+    description: Chuy峄僴 膽峄昳 膽峄媋 ch峄?ip th脿nh s峄?th岷璸 ph芒n, nh峄?ph芒n, th岷璸 l峄 ph芒n ho岷穋 th岷璵 ch铆 th脿nh ipv6
 
   text-statistics:
-    title: Thống kê văn bản
-    description: Lấy thông tin về một văn bản, số ký tự, số từ, kích thước của nó, ...
+    title: Th峄憂g k锚 v膬n b岷
+    description: L岷 th么ng tin v峄?m峄檛 v膬n b岷, s峄?k媒 t峄? s峄?t峄? k铆ch th瓢峄沜 c峄 n贸, ...
 
   text-to-nato-alphabet:
-    title: Chuyển đổi văn bản thành bảng chữ cái NATO
-    description: Chuyển đổi văn bản thành bảng chữ cái phiên âm NATO để truyền tải bằng miệng.
+    title: Chuy峄僴 膽峄昳 v膬n b岷 th脿nh b岷g ch峄?c谩i NATO
+    description: Chuy峄僴 膽峄昳 v膬n b岷 th脿nh b岷g ch峄?c谩i phi锚n 芒m NATO 膽峄?truy峄乶 t岷 b岷眓g mi峄噉g.
 
   basic-auth-generator:
-    title: Tạo mã xác thực cơ bản
-    description: Tạo một tiêu đề xác thực cơ bản base64 từ tên người dùng và mật khẩu.
+    title: T岷 m茫 x谩c th峄眂 c啤 b岷
+    description: T岷 m峄檛 ti锚u 膽峄?x谩c th峄眂 c啤 b岷 base64 t峄?t锚n ng瓢峄漣 d霉ng v脿 m岷璽 kh岷﹗.
   text-to-unicode:
-    title: Chuyển đổi văn bản thành Unicode
-    description: Phân tích và chuyển đổi văn bản thành Unicode và ngược lại
+    title: Chuy峄僴 膽峄昳 v膬n b岷 th脿nh Unicode
+    description: Ph芒n t铆ch v脿 chuy峄僴 膽峄昳 v膬n b岷 th脿nh Unicode v脿 ng瓢峄 l岷
 
   ipv4-range-expander:
-    title: Mở rộng dải IPv4
-    description: Cho một địa chỉ IPv4 bắt đầu và kết thúc, công cụ này tính toán một mạng IPv4 hợp lệ với ký hiệu CIDR của nó.
+    title: M峄?r峄檔g d岷 IPv4
+    description: Cho m峄檛 膽峄媋 ch峄?IPv4 b岷痶 膽岷 v脿 k岷縯 th煤c, c么ng c峄?n脿y t铆nh to谩n m峄檛 m岷g IPv4 h峄 l峄?v峄沬 k媒 hi峄噓 CIDR c峄 n贸.
 
   text-diff:
-    title: So sánh văn bản
-    description: So sánh hai văn bản và xem sự khác biệt giữa chúng.
+    title: So s谩nh v膬n b岷
+    description: So s谩nh hai v膬n b岷 v脿 xem s峄?kh谩c bi峄噒 gi峄痑 ch煤ng.
 
   otp-generator:
-    title: Tạo mã OTP
-    description: Tạo và xác thực mã OTP (mật khẩu một lần) dựa trên thời gian cho xác thực đa yếu tố.
+    title: T岷 m茫 OTP
+    description: T岷 v脿 x谩c th峄眂 m茫 OTP (m岷璽 kh岷﹗ m峄檛 l岷) d峄盿 tr锚n th峄漣 gian cho x谩c th峄眂 膽a y岷縰 t峄?
 
   url-encoder:
-    title: Mã hóa/giải mã chuỗi định dạng URL
-    description: Mã hóa thành định dạng URL (còn được gọi là "percent-encoded") hoặc giải mã từ đó.
+    title: M茫 h贸a/gi岷 m茫 chu峄梚 膽峄媙h d岷g URL
+    description: M茫 h贸a th脿nh 膽峄媙h d岷g URL (c貌n 膽瓢峄 g峄峣 l脿 "percent-encoded") ho岷穋 gi岷 m茫 t峄?膽贸.
 
   text-to-binary:
-    title: Chuyển đổi văn bản thành nhị phân ASCII
-    description: Chuyển đổi văn bản thành biểu diễn nhị phân ASCII của nó và ngược lại.
+    title: Chuy峄僴 膽峄昳 v膬n b岷 th脿nh nh峄?ph芒n ASCII
+    description: Chuy峄僴 膽峄昳 v膬n b岷 th脿nh bi峄僽 di峄卬 nh峄?ph芒n ASCII c峄 n贸 v脿 ng瓢峄 l岷.
+
+ads:
+  dismissed: 'Ad dismissed'
+  click: 'Ad clicked'
+  label: 'Advertisement'

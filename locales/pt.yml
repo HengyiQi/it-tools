@@ -1,25 +1,25 @@
-home:
+﻿home:
   categories:
     newestTools: 'Novas ferramentas'
     favoriteTools: 'Suas ferramentas favoritas'
     allTools: 'Todas as ferramentas'
     favoritesDndToolTip: 'Arraste e solte para reordenar favoritos'
-  subtitle: 'Ferraentas úteis para desenvolvedores'
+  subtitle: 'Ferraentas 煤teis para desenvolvedores'
   toggleMenu: 'Menu'
-  home: 'Início'
+  home: 'In铆cio'
   uiLib: 'Biblioteca de UI'
   support: 'Apoie o desenvolvimento do IT Tools'
-  buyMeACoffee: 'Pague-me um café'
+  buyMeACoffee: 'Pague-me um caf茅'
   follow:
     title: 'Gostou do it-tools?'
-    p1: 'Dê uma estrela no'
-    githubRepository: 'repositório do IT-Tools no GitHub'
+    p1: 'D锚 uma estrela no'
+    githubRepository: 'reposit贸rio do IT-Tools no GitHub'
     p2: 'ou siga nossa'
     twitterXAccount: 'conta IT-Tools no X'
     thankYou: 'Obrigado !'
   nav:
-    github: 'Repositório no GitHub'
-    githubRepository: 'repositório do IT-Tools no GitHub'
+    github: 'Reposit贸rio no GitHub'
+    githubRepository: 'reposit贸rio do IT-Tools no GitHub'
     twitterX: 'Conta no X'
     twitterXAccount: 'conta do IT Tools no X'
     about: 'Sobre o IT-Tools'
@@ -31,25 +31,25 @@ about:
   content: >
     # Sobre o IT-Tools
 
-    Este site maravilhoso, feito com ❤ por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), junta ferramentas úteis para desenvolvedores e outras pessoas que trabalham com TI. Se você achar o site útil, fique à vontade para compartilhar com quem também possa gostar e não esqueça de salvar o bookmark na sua barra de atalhos!
+    Este site maravilhoso, feito com 鉂?por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), junta ferramentas 煤teis para desenvolvedores e outras pessoas que trabalham com TI. Se voc锚 achar o site 煤til, fique 脿 vontade para compartilhar com quem tamb茅m possa gostar e n茫o esque莽a de salvar o bookmark na sua barra de atalhos!
 
-    O IT Tools é código aberto (sob a licença GPL-3.0), é gratuito, e sempre será, mas custa dinheiro para hospedar e renovar o domínio. Se quiser apoiar meu trabalho e me encorajar a adicionar mais ferramentas, por favor considere [ser patrocinador](https://www.buymeacoffee.com/cthmsst).
+    O IT Tools 茅 c贸digo aberto (sob a licen莽a GPL-3.0), 茅 gratuito, e sempre ser谩, mas custa dinheiro para hospedar e renovar o dom铆nio. Se quiser apoiar meu trabalho e me encorajar a adicionar mais ferramentas, por favor considere [ser patrocinador](https://www.buymeacoffee.com/cthmsst).
 
     ## Tecnologias
 
-    O IT Tools é feito em Vue.js (Vue 3) com a biblioteca de componentes Naive UI e é hospedado pela Vercel. Bibliotecas de código aberto de terceiros são usadas em algumas ferramentas e você pode encontrar a lista completa no arquivo [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) do repositório.
+    O IT Tools 茅 feito em Vue.js (Vue 3) com a biblioteca de componentes Naive UI e 茅 hospedado pela Vercel. Bibliotecas de c贸digo aberto de terceiros s茫o usadas em algumas ferramentas e voc锚 pode encontrar a lista completa no arquivo [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) do reposit贸rio.
 
-    ## Achou um bug? Está faltando uma ferramenta?
+    ## Achou um bug? Est谩 faltando uma ferramenta?
 
-    Se você precisa de uma ferramenta que ainda não existe aqui e acha que pode ser útil, seu pedido será bem vindo na [seção de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no repositório do GitHub.
+    Se voc锚 precisa de uma ferramenta que ainda n茫o existe aqui e acha que pode ser 煤til, seu pedido ser谩 bem vindo na [se莽茫o de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no reposit贸rio do GitHub.
 
-    E se você encontrar um bug ou se algo não funcionar como esperado, por favor registre um relato de bug na [seção de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no GitHub.
+    E se voc锚 encontrar um bug ou se algo n茫o funcionar como esperado, por favor registre um relato de bug na [se莽茫o de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no GitHub.
 
 404:
-  notFound: '404 Não Encontrado'
-  sorry: 'Desculpe, parece que essa página não existe'
-  maybe: 'Talvez o cache esteja fazendo bobagem, que tal tentar forçar a atualização?'
-  backHome: 'Voltar para o início'
+  notFound: '404 N茫o Encontrado'
+  sorry: 'Desculpe, parece que essa p谩gina n茫o existe'
+  maybe: 'Talvez o cache esteja fazendo bobagem, que tal tentar for莽ar a atualiza莽茫o?'
+  backHome: 'Voltar para o in铆cio'
 favoriteButton:
   remove: 'Remover dos favoritos'
   add: 'Adicionar aos favoritos'
@@ -63,10 +63,15 @@ tools:
     crypto: 'Cripto'
     converter: 'Conversores'
     web: 'Web'
-    images and videos: 'Imagens & Vídeos'
+    images and videos: 'Imagens & V铆deos'
     development: 'Desenvolvimento'
     network: 'Rede'
-    math: 'Matemática'
+    math: 'Matem谩tica'
     measurement: 'Medidas'
     text: 'Texto'
     data: 'Dados'
+
+ads:
+  dismissed: 'Ad dismissed'
+  click: 'Ad clicked'
+  label: 'Advertisement'

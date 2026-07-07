@@ -1,10 +1,11 @@
-<script lang="ts" setup>
+﻿<script lang="ts" setup>
 import { useRoute } from 'vue-router';
 import { useHead } from '@vueuse/head';
 import type { HeadObject } from '@vueuse/head';
 
 import BaseLayout from './base.layout.vue';
 import FavoriteButton from '@/components/FavoriteButton.vue';
+import AdBanner from '@/components/AdBanner.vue';
 import type { Tool } from '@/tools/tools.types';
 
 const route = useRoute();
@@ -52,13 +53,41 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
       </div>
     </div>
 
-    <div class="tool-content">
-      <slot />
+    <div class="tool-content-wrapper">
+      <div class="tool-content">
+        <slot />
+      </div>
+
+      <!-- 工具页面侧边栏广告 -->
+      <div class="tool-sidebar-ad">
+        <AdBanner position="tool-sidebar" />
+      </div>
+    </div>
+
+    <!-- 工具页面底部广告 -->
+    <div class="tool-bottom-ad">
+      <AdBanner position="tool-bottom" />
     </div>
   </BaseLayout>
 </template>
 
 <style lang="less" scoped>
+.tool-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .tool-content {
   display: flex;
   flex-direction: row;
@@ -66,10 +95,28 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 16px;
+  flex: 1;
+  max-width: 600px;
 
   ::v-deep(& > *) {
     flex: 0 1 600px;
   }
+}
+
+.tool-sidebar-ad {
+  flex-shrink: 0;
+  width: 160px;
+  min-width: 160px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.tool-bottom-ad {
+  width: 100%;
+  max-width: 600px;
+  margin: 24px auto 0;
 }
 
 .tool-layout {

@@ -1,10 +1,10 @@
-home:
+﻿home:
   categories:
     newestTools: 'Les nouveaux outils'
     favoriteTools: 'Vos outils favoris'
     allTools: 'Tous les outils'
-    favoritesDndToolTip: 'Faites glisser et déposez pour réordonner vos favoris'
-  subtitle: 'Outils pour les développeurs'
+    favoritesDndToolTip: 'Faites glisser et d茅posez pour r茅ordonner vos favoris'
+  subtitle: 'Outils pour les d茅veloppeurs'
   toggleMenu: 'Menu'
   home: Accueil
   uiLib: 'UI Lib'
@@ -12,41 +12,41 @@ home:
   follow:
     title: 'Vous aimez it-tools ?'
     p1: 'Soutenez-nous avec une star sur'
-    githubRepository: "le dépôt GitHub d'IT-Tools"
+    githubRepository: "le d茅p么t GitHub d'IT-Tools"
     p2: 'ou suivez-nous sur'
     twitterXAccount: "le compte X d'IT-Tools"
     thankYou: 'Merci !'
   nav:
-    github: 'Dépôt GitHub'
-    githubRepository: "Dépôt GitHub d'IT-Tools"
+    github: 'D茅p么t GitHub'
+    githubRepository: "D茅p么t GitHub d'IT-Tools"
     twitterX: 'Compte X'
     twitterXAccount: "Compte X d'IT-Tools"
-    about: "À propos d'IT-Tools"
-    aboutLabel: 'À propos'
+    about: "脌 propos d'IT-Tools"
+    aboutLabel: '脌 propos'
     darkMode: 'Mode sombre'
     lightMode: 'Mode clair'
     mode: 'Basculer le mode sombre/clair'
 about:
   content: >
-    # À propos de IT-Tools
+    # 脌 propos de IT-Tools
 
-    Ce merveilleux site, fait avec ❤ par [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), regroupe des outils utiles pour les développeurs et les personnes travaillant dans l'informatique. Si vous le trouvez utile, n'hésitez pas à le partager et n'oubliez pas de le mettre dans vos favoris !
+    Ce merveilleux site, fait avec 鉂?par [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), regroupe des outils utiles pour les d茅veloppeurs et les personnes travaillant dans l'informatique. Si vous le trouvez utile, n'h茅sitez pas 脿 le partager et n'oubliez pas de le mettre dans vos favoris !
 
-    IT Tools est open-source (sous licence GPL-3.0) et gratuit, et le restera toujours, mais cela me coûte de l'argent pour l'héberger et renouveler le nom de domaine. Si vous voulez soutenir mon travail, et m'encourager à ajouter plus d'outils, n'hésitez pas à me [soutenir](https://www.buymeacoffee.com/cthmsst).
+    IT Tools est open-source (sous licence GPL-3.0) et gratuit, et le restera toujours, mais cela me co没te de l'argent pour l'h茅berger et renouveler le nom de domaine. Si vous voulez soutenir mon travail, et m'encourager 脿 ajouter plus d'outils, n'h茅sitez pas 脿 me [soutenir](https://www.buymeacoffee.com/cthmsst).
 
     ## Technologies
 
-    IT Tools est fait en Vue.js (Vue 3) avec la bibliothèque de composants Naive UI et est hébergé et déployé en continu par Vercel. Des bibliothèques open-source tierces sont utilisées dans certains outils, vous pouvez trouver la liste complète dans le fichier [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) du dépôt.
+    IT Tools est fait en Vue.js (Vue 3) avec la biblioth猫que de composants Naive UI et est h茅berg茅 et d茅ploy茅 en continu par Vercel. Des biblioth猫ques open-source tierces sont utilis茅es dans certains outils, vous pouvez trouver la liste compl猫te dans le fichier [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) du d茅p么t.
 
-    ## Vous avez trouvé un bug ? Un outil manque ?
+    ## Vous avez trouv茅 un bug ? Un outil manque ?
 
-    Si vous avez besoin d'un outil qui n'est pas encore présent ici, et que vous pensez qu'il peut être utile, vous êtes invité à soumettre une demande de fonctionnalité dans la [section issue](https://github.com/CorentinTh/it-tools/issues/new/choose) du dépôt GitHub.
+    Si vous avez besoin d'un outil qui n'est pas encore pr茅sent ici, et que vous pensez qu'il peut 锚tre utile, vous 锚tes invit茅 脿 soumettre une demande de fonctionnalit茅 dans la [section issue](https://github.com/CorentinTh/it-tools/issues/new/choose) du d茅p么t GitHub.
 
 404:
   notFound: '404 Not Found'
-  sorry: "Désolé, cette page n'existe pas"
-  maybe: 'Peut-être que le cache fait des siennes, essayez de forcer le rafraîchissement ?'
-  backHome: "Retour à l'accueil"
+  sorry: "D茅sol茅, cette page n'existe pas"
+  maybe: 'Peut-锚tre que le cache fait des siennes, essayez de forcer le rafra卯chissement ?'
+  backHome: "Retour 脿 l'accueil"
 toolCard:
   new: Nouveau
 search:
@@ -57,18 +57,18 @@ tools:
     crypto: Cryptographie
     converter: Convertisseur
     web: Web
-    images and videos: 'Images & Vidéos'
-    development: Développement
-    network: Réseau
+    images and videos: 'Images & Vid茅os'
+    development: D茅veloppement
+    network: R茅seau
     math: Math
     measurement: Mesure
     text: Texte
-    data: Données
+    data: Donn茅es
 
   token-generator:
-    title: Générateur de token
+    title: G茅n茅rateur de token
     description: >-
-      Génère une chaîne aléatoire avec les caractères que vous voulez, lettres
+      G茅n猫re une cha卯ne al茅atoire avec les caract猫res que vous voulez, lettres
       majuscules ou minuscules, chiffres et/ou symboles.
     uppercase: Majuscules (ABC...)
     lowercase: Minuscules (abc...)
@@ -77,6 +77,11 @@ tools:
     button:
       copy: Copier
       refresh: Rafraichir
-    copied: Le token a été copié
+    copied: Le token a 茅t茅 copi茅
     length: Longueur
     tokenPlaceholder: Le token...
+
+ads:
+  dismissed: 'Ad dismissed'
+  click: 'Ad clicked'
+  label: 'Advertisement'

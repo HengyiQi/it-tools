@@ -1,390 +1,395 @@
-home:
+﻿home:
   categories:
-    newestTools: '最新工具'
-    favoriteTools: '我的收藏'
-    allTools: '全部工具'
-    favoritesDndToolTip: '拖放重新排列收藏夹'
-  subtitle: '助力开发人员和 IT 工作者'
-  toggleMenu: '切换菜单'
-  home: '主页'
-  uiLib: 'UI 库'
-  support: '支持 IT 工具开发'
-  buyMeACoffee: '赞助'
+    newestTools: '鏈€鏂板伐鍏?
+    favoriteTools: '鎴戠殑鏀惰棌'
+    allTools: '鍏ㄩ儴宸ュ叿'
+    favoritesDndToolTip: '鎷栨斁閲嶆柊鎺掑垪鏀惰棌澶?
+  subtitle: '鍔╁姏寮€鍙戜汉鍛樺拰 IT 宸ヤ綔鑰?
+  toggleMenu: '鍒囨崲鑿滃崟'
+  home: '涓婚〉'
+  uiLib: 'UI 搴?
+  support: '鏀寔 IT 宸ュ叿寮€鍙?
+  buyMeACoffee: '璧炲姪'
   follow:
-    title: '关注我们'
-    p1: '给我们 Star'
-    githubRepository: 'GitHub 仓库'
-    p2: '关注我们的'
-    twitterXAccount: 'IT-Tools X 账号'
-    thankYou: '感谢您的支持！'
+    title: '鍏虫敞鎴戜滑'
+    p1: '缁欐垜浠?Star'
+    githubRepository: 'GitHub 浠撳簱'
+    p2: '鍏虫敞鎴戜滑鐨?
+    twitterXAccount: 'IT-Tools X 璐﹀彿'
+    thankYou: '鎰熻阿鎮ㄧ殑鏀寔锛?
   nav:
-    github: 'GitHub 仓库'
-    githubRepository: 'GitHub 仓库'
-    twitterX: 'Twitter 账号'
-    twitterXAccount: 'IT-Tools X 账号'
-    about: '关于 IT-Tools'
-    aboutLabel: '关于'
-    darkMode: '深色模式'
-    lightMode: '浅色模式'
-    mode: '颜色模式'
+    github: 'GitHub 浠撳簱'
+    githubRepository: 'GitHub 浠撳簱'
+    twitterX: 'Twitter 璐﹀彿'
+    twitterXAccount: 'IT-Tools X 璐﹀彿'
+    about: '鍏充簬 IT-Tools'
+    aboutLabel: '鍏充簬'
+    darkMode: '娣辫壊妯″紡'
+    lightMode: '娴呰壊妯″紡'
+    mode: '棰滆壊妯″紡'
 about:
   content: >
-    # 关于 IT-Tools
+    # 鍏充簬 IT-Tools
 
-    IT-Tools 由 [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) 用 ❤ 开发，汇集了对开发人员和 IT 从业者有用的工具。如果对您有帮助，请将其分享给您的朋友，并且添加到收藏夹中！
+    IT-Tools 鐢?[Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) 鐢?鉂?寮€鍙戯紝姹囬泦浜嗗寮€鍙戜汉鍛樺拰 IT 浠庝笟鑰呮湁鐢ㄧ殑宸ュ叿銆傚鏋滃鎮ㄦ湁甯姪锛岃灏嗗叾鍒嗕韩缁欐偍鐨勬湅鍙嬶紝骞朵笖娣诲姞鍒版敹钘忓す涓紒
 
-    IT-Tools 永久免费且开源（GPL-3.0 许可证），但需要资金用于托管和续订域名。如果您想支持我的工作，并鼓励我添加更多工具，请考虑通过 [赞助我](https://www.buymeacoffee.com/cthmsst) 进行支持。
+    IT-Tools 姘镐箙鍏嶈垂涓斿紑婧愶紙GPL-3.0 璁稿彲璇侊級锛屼絾闇€瑕佽祫閲戠敤浜庢墭绠″拰缁鍩熷悕銆傚鏋滄偍鎯虫敮鎸佹垜鐨勫伐浣滐紝骞堕紦鍔辨垜娣诲姞鏇村宸ュ叿锛岃鑰冭檻閫氳繃 [璧炲姪鎴慮(https://www.buymeacoffee.com/cthmsst) 杩涜鏀寔銆?
 
-    ## 技术
+    ## 鎶€鏈?
 
-    IT-Tools 采用 Vue.js（Vue 3）和 Naive UI 组件库开发，并由 Vercel 托管和持续部署。某些工具使用了第三方开源库，您可以在仓库的 [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) 文件中找到完整的列表。
+    IT-Tools 閲囩敤 Vue.js锛圴ue 3锛夊拰 Naive UI 缁勪欢搴撳紑鍙戯紝骞剁敱 Vercel 鎵樼鍜屾寔缁儴缃层€傛煇浜涘伐鍏蜂娇鐢ㄤ簡绗笁鏂瑰紑婧愬簱锛屾偍鍙互鍦ㄤ粨搴撶殑 [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) 鏂囦欢涓壘鍒板畬鏁寸殑鍒楄〃銆?
 
-    ## 发现了 Bug？缺少工具？
+    ## 鍙戠幇浜?Bug锛熺己灏戝伐鍏凤紵
 
-    如果目前这里没有您需要的工具，并且您认为它可能有用，欢迎在 GitHub 仓库的 [issues](https://github.com/CorentinTh/it-tools/issues/new/choose) 中提交新增功能的请求。
+    濡傛灉鐩墠杩欓噷娌℃湁鎮ㄩ渶瑕佺殑宸ュ叿锛屽苟涓旀偍璁や负瀹冨彲鑳芥湁鐢紝娆㈣繋鍦?GitHub 浠撳簱鐨?[issues](https://github.com/CorentinTh/it-tools/issues/new/choose) 涓彁浜ゆ柊澧炲姛鑳界殑璇锋眰銆?
 
-    如果您发现了 Bug，或者某些功能未能按预期工作，请在 GitHub 仓库的 [issues](https://github.com/CorentinTh/it-tools/issues/new/choose) 中提交错误报告。
+    濡傛灉鎮ㄥ彂鐜颁簡 Bug锛屾垨鑰呮煇浜涘姛鑳芥湭鑳芥寜棰勬湡宸ヤ綔锛岃鍦?GitHub 浠撳簱鐨?[issues](https://github.com/CorentinTh/it-tools/issues/new/choose) 涓彁浜ら敊璇姤鍛娿€?
 
 404:
-  notFound: '404 页面不存在'
-  sorry: '抱歉，该页面似乎不存在'
-  maybe: '也许缓存出现了一些问题，试试强制刷新页面？'
-  backHome: '返回主页'
+  notFound: '404 椤甸潰涓嶅瓨鍦?
+  sorry: '鎶辨瓑锛岃椤甸潰浼间箮涓嶅瓨鍦?
+  maybe: '涔熻缂撳瓨鍑虹幇浜嗕竴浜涢棶棰橈紝璇曡瘯寮哄埗鍒锋柊椤甸潰锛?
+  backHome: '杩斿洖涓婚〉'
 favoriteButton:
-  remove: '取消收藏'
-  add: '加入收藏'
+  remove: '鍙栨秷鏀惰棌'
+  add: '鍔犲叆鏀惰棌'
 toolCard:
-  new: '新'
+  new: '鏂?
 search:
-  label: '搜索'
+  label: '鎼滅储'
 tools:
   categories:
-    favorite-tools: '我的收藏'
-    crypto: '加密'
-    converter: '转换器'
+    favorite-tools: '鎴戠殑鏀惰棌'
+    crypto: '鍔犲瘑'
+    converter: '杞崲鍣?
     web: Web
-    images and videos: '图片和视频'
-    development: '开发'
-    network: '网络'
-    math: '数学'
-    measurement: '测量'
-    text: '文本'
-    data: '数据'
+    images and videos: '鍥剧墖鍜岃棰?
+    development: '寮€鍙?
+    network: '缃戠粶'
+    math: '鏁板'
+    measurement: '娴嬮噺'
+    text: '鏂囨湰'
+    data: '鏁版嵁'
 
   password-strength-analyser:
-    title: 密码强度分析仪
-    description: 使用此密码强度分析器和破解时间估计工具来发现密码的强度。
+    title: 瀵嗙爜寮哄害鍒嗘瀽浠?
+    description: 浣跨敤姝ゅ瘑鐮佸己搴﹀垎鏋愬櫒鍜岀牬瑙ｆ椂闂翠及璁″伐鍏锋潵鍙戠幇瀵嗙爜鐨勫己搴︺€?
 
   chronometer:
-    title: 计时器
-    description: 监控事物的持续时间。基本上是一种具有简单计时器功能的计时器。
+    title: 璁℃椂鍣?
+    description: 鐩戞帶浜嬬墿鐨勬寔缁椂闂淬€傚熀鏈笂鏄竴绉嶅叿鏈夌畝鍗曡鏃跺櫒鍔熻兘鐨勮鏃跺櫒銆?
   token-generator:
-    title: Token 生成器
-    description: 使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。
+    title: Token 鐢熸垚鍣?
+    description: 浣跨敤鎮ㄦ兂瑕佺殑瀛楃銆佸ぇ鍐欐垨灏忓啓瀛楁瘝銆佹暟瀛楀拰/鎴栫鍙风敓鎴愰殢鏈哄瓧绗︿覆銆?
 
-    uppercase: '大写 (ABC...)'
-    lowercase: '小写 (abc...)'
-    numbers: '数字 (123...)'
-    symbols: '符号 (!-;...)'
-    length: '长度'
-    tokenPlaceholder: '令牌...'
-    copied: 复制到剪贴板
+    uppercase: '澶у啓 (ABC...)'
+    lowercase: '灏忓啓 (abc...)'
+    numbers: '鏁板瓧 (123...)'
+    symbols: '绗﹀彿 (!-;...)'
+    length: '闀垮害'
+    tokenPlaceholder: '浠ょ墝...'
+    copied: 澶嶅埗鍒板壀璐存澘
     button:
-      copy: 复制
-      refresh: 刷新
+      copy: 澶嶅埗
+      refresh: 鍒锋柊
   percentage-calculator:
-    title: 百分比计算器
-    description: 轻松计算从一个值到另一个值的百分比，或从百分比到值的百分比。
+    title: 鐧惧垎姣旇绠楀櫒
+    description: 杞绘澗璁＄畻浠庝竴涓€煎埌鍙︿竴涓€肩殑鐧惧垎姣旓紝鎴栦粠鐧惧垎姣斿埌鍊肩殑鐧惧垎姣斻€?
 
   svg-placeholder-generator:
-    title: SVG 占位符生成器
-    description: 生成 svg 图像以用作应用程序中的占位符。
+    title: SVG 鍗犱綅绗︾敓鎴愬櫒
+    description: 鐢熸垚 svg 鍥惧儚浠ョ敤浣滃簲鐢ㄧ▼搴忎腑鐨勫崰浣嶇銆?
 
   json-to-csv:
-    title: JSON 转 CSV
-    description: 使用自动标头检测将JSON转换为CSV。
+    title: JSON 杞?CSV
+    description: 浣跨敤鑷姩鏍囧ご妫€娴嬪皢JSON杞崲涓篊SV銆?
 
   camera-recorder:
-    title: 摄像机记录器
-    description: 从网络摄像头或照相机拍摄照片或录制视频。
+    title: 鎽勫儚鏈鸿褰曞櫒
+    description: 浠庣綉缁滄憚鍍忓ご鎴栫収鐩告満鎷嶆憚鐓х墖鎴栧綍鍒惰棰戙€?
 
   keycode-info:
-    title: Keycode 信息
-    description: 查找任何按下的键的javascript键代码、代码、位置和修饰符。
+    title: Keycode 淇℃伅
+    description: 鏌ユ壘浠讳綍鎸変笅鐨勯敭鐨刯avascript閿唬鐮併€佷唬鐮併€佷綅缃拰淇グ绗︺€?
 
   emoji-picker:
-    title: Emoji 选择器
-    description: 轻松复制和粘贴Emoji表情符号，并获得每个表情符号的unicode和code points值.
+    title: Emoji 閫夋嫨鍣?
+    description: 杞绘澗澶嶅埗鍜岀矘璐碋moji琛ㄦ儏绗﹀彿锛屽苟鑾峰緱姣忎釜琛ㄦ儏绗﹀彿鐨剈nicode鍜宑ode points鍊?
 
   color-converter:
-    title: Color 选择器
-    description: 在不同格式（十六进制、rgb、hsl和css名称）之间转换颜色
+    title: Color 閫夋嫨鍣?
+    description: 鍦ㄤ笉鍚屾牸寮忥紙鍗佸叚杩涘埗銆乺gb銆乭sl鍜宑ss鍚嶇О锛変箣闂磋浆鎹㈤鑹?
   bcrypt:
-    title: 加密
-    description: 使用bcrypt对文本字符串进行哈希和比较。Bcrypt是一个基于Blowfish密码的密码哈希函数。
+    title: 鍔犲瘑
+    description: 浣跨敤bcrypt瀵规枃鏈瓧绗︿覆杩涜鍝堝笇鍜屾瘮杈冦€侭crypt鏄竴涓熀浜嶣lowfish瀵嗙爜鐨勫瘑鐮佸搱甯屽嚱鏁般€?
 
   crontab-generator:
-    title: Crontab 表达式生成
-    description: 验证并生成crontab，并获取cron调度的可读描述。
+    title: Crontab 琛ㄨ揪寮忕敓鎴?
+    description: 楠岃瘉骞剁敓鎴恈rontab锛屽苟鑾峰彇cron璋冨害鐨勫彲璇绘弿杩般€?
 
   http-status-codes:
-    title: HTTP 状态码
-    description: 所有HTTP状态的列表对其名称和含义解释。
+    title: HTTP 鐘舵€佺爜
+    description: 鎵€鏈塇TTP鐘舵€佺殑鍒楄〃瀵瑰叾鍚嶇О鍜屽惈涔夎В閲娿€?
 
   sql-prettify:
-    title: SQL 美化和格式化
-    description: 在线格式化和美化您的 SQL 查询（它支持各种 SQL 方言）。
+    title: SQL 缇庡寲鍜屾牸寮忓寲
+    description: 鍦ㄧ嚎鏍煎紡鍖栧拰缇庡寲鎮ㄧ殑 SQL 鏌ヨ锛堝畠鏀寔鍚勭 SQL 鏂硅█锛夈€?
 
   benchmark-builder:
-    title: 基准生成器
-    description: 简单的在线基准构建器可以轻松比较任务的执行时间。
+    title: 鍩哄噯鐢熸垚鍣?
+    description: 绠€鍗曠殑鍦ㄧ嚎鍩哄噯鏋勫缓鍣ㄥ彲浠ヨ交鏉炬瘮杈冧换鍔＄殑鎵ц鏃堕棿銆?
 
   git-memo:
-    title: Git 备忘录
-    description: Git是一种去中心化的版本管理软件。使用此备忘单，您可以快速访问最常见的git命令.
+    title: Git 澶囧繕褰?
+    description: Git鏄竴绉嶅幓涓績鍖栫殑鐗堟湰绠＄悊杞欢銆備娇鐢ㄦ澶囧繕鍗曪紝鎮ㄥ彲浠ュ揩閫熻闂渶甯歌鐨刧it鍛戒护.
 
   slugify-string:
-    title: 打乱字符串
-    description: 确保字符串 url、文件名和 id 安全。
+    title: 鎵撲贡瀛楃涓?
+    description: 纭繚瀛楃涓?url銆佹枃浠跺悕鍜?id 瀹夊叏銆?
 
   encryption:
-    title: 加密/解密文本
-    description: 使用加密算法（如AES、TripleDES、Rabbit或RC4）加密和解密文本明文。
+    title: 鍔犲瘑/瑙ｅ瘑鏂囨湰
+    description: 浣跨敤鍔犲瘑绠楁硶锛堝AES銆乀ripleDES銆丷abbit鎴朢C4锛夊姞瀵嗗拰瑙ｅ瘑鏂囨湰鏄庢枃銆?
 
   random-port-generator:
-    title: 随机端口生成
-    description: 生成“已知”端口范围（0-1023）之外的随机端口号。
+    title: 闅忔満绔彛鐢熸垚
+    description: 鐢熸垚鈥滃凡鐭モ€濈鍙ｈ寖鍥达紙0-1023锛変箣澶栫殑闅忔満绔彛鍙枫€?
 
   yaml-prettify:
-    title: YAML美化和格式化
-    description: 将YAML字符串修饰为友好的可读格式。
+    title: YAML缇庡寲鍜屾牸寮忓寲
+    description: 灏哬AML瀛楃涓蹭慨楗颁负鍙嬪ソ鐨勫彲璇绘牸寮忋€?
 
   eta-calculator:
-    title: ETA 计算器
-    description: ETA（估计到达时间）计算器，用于知道任务的近似结束时间，例如下载的结束时刻。
+    title: ETA 璁＄畻鍣?
+    description: ETA锛堜及璁″埌杈炬椂闂达級璁＄畻鍣紝鐢ㄤ簬鐭ラ亾浠诲姟鐨勮繎浼肩粨鏉熸椂闂达紝渚嬪涓嬭浇鐨勭粨鏉熸椂鍒汇€?
 
   roman-numeral-converter:
-    title: 罗马数字转换器
-    description: 将罗马数字转换为数字，并将数字转换为罗马数字。
+    title: 缃楅┈鏁板瓧杞崲鍣?
+    description: 灏嗙綏椹暟瀛楄浆鎹负鏁板瓧锛屽苟灏嗘暟瀛楄浆鎹负缃楅┈鏁板瓧銆?
 
   hmac-generator:
-    title: Hmac 生成器
-    description: 使用密钥和您喜欢的哈希函数计算基于哈希的消息身份验证代码（HMAC）。
+    title: Hmac 鐢熸垚鍣?
+    description: 浣跨敤瀵嗛挜鍜屾偍鍠滄鐨勫搱甯屽嚱鏁拌绠楀熀浜庡搱甯岀殑娑堟伅韬唤楠岃瘉浠ｇ爜锛圚MAC锛夈€?
 
   bip39-generator:
-    title: BIP39密码生成器
-    description: 从现有或随机助记符生成BIP39密码短语，或从密码短语获取助记符。
+    title: BIP39瀵嗙爜鐢熸垚鍣?
+    description: 浠庣幇鏈夋垨闅忔満鍔╄绗︾敓鎴怋IP39瀵嗙爜鐭锛屾垨浠庡瘑鐮佺煭璇幏鍙栧姪璁扮銆?
 
   base64-file-converter:
-    title: Base64 文件转换器
-    description: 将字符串、文件或图像转换为其 Base64 表示形式。
+    title: Base64 鏂囦欢杞崲鍣?
+    description: 灏嗗瓧绗︿覆銆佹枃浠舵垨鍥惧儚杞崲涓哄叾 Base64 琛ㄧず褰㈠紡銆?
   list-converter:
-    title: List 转换器
-    description: 该工具可以处理基于数组的数据，并将各种更改（转置、添加前缀和后缀、反向列表、排序列表、小写值、截断值）应用于每一行。
+    title: List 杞崲鍣?
+    description: 璇ュ伐鍏峰彲浠ュ鐞嗗熀浜庢暟缁勭殑鏁版嵁锛屽苟灏嗗悇绉嶆洿鏀癸紙杞疆銆佹坊鍔犲墠缂€鍜屽悗缂€銆佸弽鍚戝垪琛ㄣ€佹帓搴忓垪琛ㄣ€佸皬鍐欏€笺€佹埅鏂€硷級搴旂敤浜庢瘡涓€琛屻€?
 
   base64-string-converter:
-    title: Base64 字符串编码/解码
-    description: 将字符串编码和解码为其 Base64 格式表示形式即可。
+    title: Base64 瀛楃涓茬紪鐮?瑙ｇ爜
+    description: 灏嗗瓧绗︿覆缂栫爜鍜岃В鐮佷负鍏?Base64 鏍煎紡琛ㄧず褰㈠紡鍗冲彲銆?
 
   toml-to-yaml:
-    title: TOML 到 YAML
+    title: TOML 鍒?YAML
     description: Parse and convert TOML to YAML.
 
   math-evaluator:
-    title: 数学计算器
-    description: 计算数学表达式的计算器。您可以使用sqrt、cos、sin、abs等函数。
+    title: 鏁板璁＄畻鍣?
+    description: 璁＄畻鏁板琛ㄨ揪寮忕殑璁＄畻鍣ㄣ€傛偍鍙互浣跨敤sqrt銆乧os銆乻in銆乤bs绛夊嚱鏁般€?
 
   json-to-yaml-converter:
-    title: JSON到YAML转换器
-    description: 在线转换将JSON转换为YAML。
+    title: JSON鍒癥AML杞崲鍣?
+    description: 鍦ㄧ嚎杞崲灏咼SON杞崲涓篩AML銆?
 
   url-parser:
-    title: Url分析器
-    description: 解析url字符串以获取所有不同的部分（协议、来源、参数、端口、用户名密码…）
+    title: Url鍒嗘瀽鍣?
+    description: 瑙ｆ瀽url瀛楃涓蹭互鑾峰彇鎵€鏈変笉鍚岀殑閮ㄥ垎锛堝崗璁€佹潵婧愩€佸弬鏁般€佺鍙ｃ€佺敤鎴峰悕瀵嗙爜鈥︼級
 
   iban-validator-and-parser:
-    title: IBAN验证器和解析器
-    description: 验证和分析IBAN编号。检查IBAN是否有效，并获取国家BBAN，如果它是QR-IBAN和IBAN友好格式。
+    title: IBAN楠岃瘉鍣ㄥ拰瑙ｆ瀽鍣?
+    description: 楠岃瘉鍜屽垎鏋怚BAN缂栧彿銆傛鏌BAN鏄惁鏈夋晥锛屽苟鑾峰彇鍥藉BBAN锛屽鏋滃畠鏄疩R-IBAN鍜孖BAN鍙嬪ソ鏍煎紡銆?
 
   user-agent-parser:
-    title: 用户代理分析器
-    description: 从用户代理字符串中检测和分析浏览器、引擎、操作系统、CPU和设备类型/型号。
+    title: 鐢ㄦ埛浠ｇ悊鍒嗘瀽鍣?
+    description: 浠庣敤鎴蜂唬鐞嗗瓧绗︿覆涓娴嬪拰鍒嗘瀽娴忚鍣ㄣ€佸紩鎿庛€佹搷浣滅郴缁熴€丆PU鍜岃澶囩被鍨?鍨嬪彿銆?
 
   numeronym-generator:
-    title: 数字名称生成器
-    description: 数字名是一个用数字构成缩写的词。例如，“i18n”是“国际化”的名词，其中18表示单词中第一个i和最后一个n之间的字母数。
+    title: 鏁板瓧鍚嶇О鐢熸垚鍣?
+    description: 鏁板瓧鍚嶆槸涓€涓敤鏁板瓧鏋勬垚缂╁啓鐨勮瘝銆備緥濡傦紝鈥渋18n鈥濇槸鈥滃浗闄呭寲鈥濈殑鍚嶈瘝锛屽叾涓?8琛ㄧず鍗曡瘝涓涓€涓猧鍜屾渶鍚庝竴涓猲涔嬮棿鐨勫瓧姣嶆暟銆?
 
   case-converter:
-    title: 大小写转换
-    description: 更改字符串的大小写并在不同格式之间进行选择
+    title: 澶у皬鍐欒浆鎹?
+    description: 鏇存敼瀛楃涓茬殑澶у皬鍐欏苟鍦ㄤ笉鍚屾牸寮忎箣闂磋繘琛岄€夋嫨
 
   html-entities:
-    title: 转义html实体
-    description: 转义或unescape html实体（将<、>、&、“和\'替换为其html版本）
+    title: 杞箟html瀹炰綋
+    description: 杞箟鎴杣nescape html瀹炰綋锛堝皢<銆?銆?銆佲€滃拰\'鏇挎崲涓哄叾html鐗堟湰锛?
 
   json-prettify:
-    title: JSON美化和格式化
-    description: 将JSON字符串修饰为友好的可读格式。
+    title: JSON缇庡寲鍜屾牸寮忓寲
+    description: 灏咼SON瀛楃涓蹭慨楗颁负鍙嬪ソ鐨勫彲璇绘牸寮忋€?
 
   docker-run-to-docker-compose-converter:
-    title: Docker Run 到 docker-compose 转换器
-    description: 将 docker run 命令行转换为 docker-compose 文件!
+    title: Docker Run 鍒?docker-compose 杞崲鍣?
+    description: 灏?docker run 鍛戒护琛岃浆鎹负 docker-compose 鏂囦欢!
 
   mac-address-lookup:
-    title: MAC地址查找
-    description: 通过设备的MAC地址查找设备的供应商和制造商。
+    title: MAC鍦板潃鏌ユ壘
+    description: 閫氳繃璁惧鐨凪AC鍦板潃鏌ユ壘璁惧鐨勪緵搴斿晢鍜屽埗閫犲晢銆?
 
   mime-types:
-    title: mime类型
-    description: 将mime类型转换为扩展，反之亦然。
+    title: mime绫诲瀷
+    description: 灏唌ime绫诲瀷杞崲涓烘墿灞曪紝鍙嶄箣浜︾劧銆?
 
   toml-to-json:
-    title: TOML 到 JSON
-    description: 解析TOML并将其转换为JSON。
+    title: TOML 鍒?JSON
+    description: 瑙ｆ瀽TOML骞跺皢鍏惰浆鎹负JSON銆?
 
   lorem-ipsum-generator:
-    title: Lorem ipsum生成器
-    description: Lorem ipsum是一种占位符文本，通常用于演示文档或字体的视觉形式，而不依赖于有意义的内容
+    title: Lorem ipsum鐢熸垚鍣?
+    description: Lorem ipsum鏄竴绉嶅崰浣嶇鏂囨湰锛岄€氬父鐢ㄤ簬婕旂ず鏂囨。鎴栧瓧浣撶殑瑙嗚褰㈠紡锛岃€屼笉渚濊禆浜庢湁鎰忎箟鐨勫唴瀹?
 
   qrcode-generator:
-    title: 二维码生成器
-    description: 生成并下载url或文本的QR代码，并自定义背景和前景颜色。
+    title: 浜岀淮鐮佺敓鎴愬櫒
+    description: 鐢熸垚骞朵笅杞絬rl鎴栨枃鏈殑QR浠ｇ爜锛屽苟鑷畾涔夎儗鏅拰鍓嶆櫙棰滆壊銆?
 
   wifi-qrcode-generator:
-    title: WiFi 二维码生成器
-    description: 生成和下载QR码以快速连接到WiFi网络。
+    title: WiFi 浜岀淮鐮佺敓鎴愬櫒
+    description: 鐢熸垚鍜屼笅杞絈R鐮佷互蹇€熻繛鎺ュ埌WiFi缃戠粶銆?
 
   xml-formatter:
-    title: XML 格式化
-    description: 将XML字符串修饰为友好的可读格式。
+    title: XML 鏍煎紡鍖?
+    description: 灏哫ML瀛楃涓蹭慨楗颁负鍙嬪ソ鐨勫彲璇绘牸寮忋€?
 
   temperature-converter:
-    title: 温度转换器
-    description: 开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿、雷奥穆尔和罗默温度度数转换。
+    title: 娓╁害杞崲鍣?
+    description: 寮€灏旀枃銆佹憚姘忓害銆佸崕姘忓害銆佸叞閲戙€佸痉鑾卞皵銆佺墰椤裤€侀浄濂ョ﹩灏斿拰缃楅粯娓╁害搴︽暟杞崲銆?
 
   chmod-calculator:
-    title: Chmod 计算器
-    description: 使用此在线的chmod计算器计算chmod权限和命令。
+    title: Chmod 璁＄畻鍣?
+    description: 浣跨敤姝ゅ湪绾跨殑chmod璁＄畻鍣ㄨ绠梒hmod鏉冮檺鍜屽懡浠ゃ€?
 
   rsa-key-pair-generator:
-    title: RSA密钥对生成器
-    description: 生成新的随机RSA私钥和公钥pem证书。
+    title: RSA瀵嗛挜瀵圭敓鎴愬櫒
+    description: 鐢熸垚鏂扮殑闅忔満RSA绉侀挜鍜屽叕閽em璇佷功銆?
 
   html-wysiwyg-editor:
-    title: HTML所见即所得编辑器
-    description: 在线HTML编辑器具有功能丰富的所见即所得编辑器，立即获得内容的源代码。
+    title: HTML鎵€瑙佸嵆鎵€寰楃紪杈戝櫒
+    description: 鍦ㄧ嚎HTML缂栬緫鍣ㄥ叿鏈夊姛鑳戒赴瀵岀殑鎵€瑙佸嵆鎵€寰楃紪杈戝櫒锛岀珛鍗宠幏寰楀唴瀹圭殑婧愪唬鐮併€?
 
   yaml-to-toml:
-    title: YAML 到 TOML
-    description: 解析YAML并将其转换为TOML。
+    title: YAML 鍒?TOML
+    description: 瑙ｆ瀽YAML骞跺皢鍏惰浆鎹负TOML銆?
 
   mac-address-generator:
-    title: MAC 地址生成器
-    description: 输入数量和前缀。MAC地址将以您选择的大小写（大写或小写）生成
+    title: MAC 鍦板潃鐢熸垚鍣?
+    description: 杈撳叆鏁伴噺鍜屽墠缂€銆侻AC鍦板潃灏嗕互鎮ㄩ€夋嫨鐨勫ぇ灏忓啓锛堝ぇ鍐欐垨灏忓啓锛夌敓鎴?
 
   json-diff:
-    title: JSON 差异比较
-    description: 比较两个JSON对象并获得它们之间的差异。
+    title: JSON 宸紓姣旇緝
+    description: 姣旇緝涓や釜JSON瀵硅薄骞惰幏寰楀畠浠箣闂寸殑宸紓銆?
   jwt-parser:
-    title: JWT 解析器
-    description: 解析和解码JSON Web Token（jwt）并显示其内容。
+    title: JWT 瑙ｆ瀽鍣?
+    description: 瑙ｆ瀽鍜岃В鐮丣SON Web Token锛坖wt锛夊苟鏄剧ず鍏跺唴瀹广€?
 
   date-converter:
-    title: 日期时间转换器
-    description: 将日期和时间转换为各种不同的格式
+    title: 鏃ユ湡鏃堕棿杞崲鍣?
+    description: 灏嗘棩鏈熷拰鏃堕棿杞崲涓哄悇绉嶄笉鍚岀殑鏍煎紡
 
   phone-parser-and-formatter:
-    title: 电话分析器和格式化程序
-    description: 解析、验证和格式化电话号码。获取有关电话号码的信息，如国家/地区代码、类型等。
+    title: 鐢佃瘽鍒嗘瀽鍣ㄥ拰鏍煎紡鍖栫▼搴?
+    description: 瑙ｆ瀽銆侀獙璇佸拰鏍煎紡鍖栫數璇濆彿鐮併€傝幏鍙栨湁鍏崇數璇濆彿鐮佺殑淇℃伅锛屽鍥藉/鍦板尯浠ｇ爜銆佺被鍨嬬瓑銆?
 
   ipv4-subnet-calculator:
-    title: IPv4子网计算器
-    description: 解析IPv4 CIDR块，并获取有关子网络的所有所需信息。
+    title: IPv4瀛愮綉璁＄畻鍣?
+    description: 瑙ｆ瀽IPv4 CIDR鍧楋紝骞惰幏鍙栨湁鍏冲瓙缃戠粶鐨勬墍鏈夋墍闇€淇℃伅銆?
 
   og-meta-generator:
-    title: 开放式图形元生成器
-    description: 为您的网站生成开放式图形和社交html元标记。
+    title: 寮€鏀惧紡鍥惧舰鍏冪敓鎴愬櫒
+    description: 涓烘偍鐨勭綉绔欑敓鎴愬紑鏀惧紡鍥惧舰鍜岀ぞ浜tml鍏冩爣璁般€?
 
   ipv6-ula-generator:
-    title: IPv6 ULA生成器
-    description: 根据RFC4193在网络上生成您自己的本地不可路由IP地址。
+    title: IPv6 ULA鐢熸垚鍣?
+    description: 鏍规嵁RFC4193鍦ㄧ綉缁滀笂鐢熸垚鎮ㄨ嚜宸辩殑鏈湴涓嶅彲璺敱IP鍦板潃銆?
 
   hash-text:
-    title: Hash 文本
-    description: '使用所需的函数哈希文本字符串：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160'
+    title: Hash 鏂囨湰
+    description: '浣跨敤鎵€闇€鐨勫嚱鏁板搱甯屾枃鏈瓧绗︿覆锛歁D5銆丼HA1銆丼HA256銆丼HA224銆丼HA512銆丼HA384銆丼HA3鎴朢IPEMD160'
 
   json-to-toml:
-    title: JSON 转 TOML
-    description: 解析JSON并将其转换为TOML。
+    title: JSON 杞?TOML
+    description: 瑙ｆ瀽JSON骞跺皢鍏惰浆鎹负TOML銆?
 
   device-information:
-    title: 设备信息
-    description: 获取有关当前设备的信息（屏幕大小、像素比率、用户代理…）
+    title: 璁惧淇℃伅
+    description: 鑾峰彇鏈夊叧褰撳墠璁惧鐨勪俊鎭紙灞忓箷澶у皬銆佸儚绱犳瘮鐜囥€佺敤鎴蜂唬鐞嗏€︼級
 
   pdf-signature-checker:
-    title: PDF签名检查器
-    description: '验证PDF文件的签名。签名的PDF文件包含一个或多个签名，可用于确定文件的内容在签名后是否已被更改。'
+    title: PDF绛惧悕妫€鏌ュ櫒
+    description: '楠岃瘉PDF鏂囦欢鐨勭鍚嶃€傜鍚嶇殑PDF鏂囦欢鍖呭惈涓€涓垨澶氫釜绛惧悕锛屽彲鐢ㄤ簬纭畾鏂囦欢鐨勫唴瀹瑰湪绛惧悕鍚庢槸鍚﹀凡琚洿鏀广€?
 
   json-minify:
-    title: JSON 压缩
-    description: 通过删除不必要的空白来缩小和压缩JSON。
+    title: JSON 鍘嬬缉
+    description: 閫氳繃鍒犻櫎涓嶅繀瑕佺殑绌虹櫧鏉ョ缉灏忓拰鍘嬬缉JSON銆?
 
   ulid-generator:
-    title: ULID 生成器
-    description: 生成随机的通用唯一词典可排序标识符（ULID）。
+    title: ULID 鐢熸垚鍣?
+    description: 鐢熸垚闅忔満鐨勯€氱敤鍞竴璇嶅吀鍙帓搴忔爣璇嗙锛圲LID锛夈€?
 
   string-obfuscator:
-    title: 字符串混淆器
-    description: 混淆字符串（如秘密、IBAN 或令牌），使其可共享和可识别，而不泄露其内容。
+    title: 瀛楃涓叉贩娣嗗櫒
+    description: 娣锋穯瀛楃涓诧紙濡傜瀵嗐€両BAN 鎴栦护鐗岋級锛屼娇鍏跺彲鍏变韩鍜屽彲璇嗗埆锛岃€屼笉娉勯湶鍏跺唴瀹广€?
 
   base-converter:
-    title: 整数基转换器
-    description: 在不同的基数（十进制、十六进制、二进制、八进制、base64…）之间转换数字
+    title: 鏁存暟鍩鸿浆鎹㈠櫒
+    description: 鍦ㄤ笉鍚岀殑鍩烘暟锛堝崄杩涘埗銆佸崄鍏繘鍒躲€佷簩杩涘埗銆佸叓杩涘埗銆乥ase64鈥︼級涔嬮棿杞崲鏁板瓧
 
   yaml-to-json-converter:
-    title: YAML到JSON转换器
-    description: 使用此在线转换器将YAML转换为JSON。
+    title: YAML鍒癑SON杞崲鍣?
+    description: 浣跨敤姝ゅ湪绾胯浆鎹㈠櫒灏哬AML杞崲涓篔SON銆?
 
   uuid-generator:
-    title: UUIDs 生成器
-    description: 通用唯一标识符（UUID）是一个128位数字，用于标识计算机系统中的信息。可能的UUID数量为16^32，即2^128或约3.4x10^38（这是一个很大的数字！）。
+    title: UUIDs 鐢熸垚鍣?
+    description: 閫氱敤鍞竴鏍囪瘑绗︼紙UUID锛夋槸涓€涓?28浣嶆暟瀛楋紝鐢ㄤ簬鏍囪瘑璁＄畻鏈虹郴缁熶腑鐨勪俊鎭€傚彲鑳界殑UUID鏁伴噺涓?6^32锛屽嵆2^128鎴栫害3.4x10^38锛堣繖鏄竴涓緢澶х殑鏁板瓧锛侊級銆?
 
   ipv4-address-converter:
-    title: Ipv4地址转换器
-    description: 在ipv6中，将ip地址转换为十进制、二进制、十六进制或事件
+    title: Ipv4鍦板潃杞崲鍣?
+    description: 鍦╥pv6涓紝灏唅p鍦板潃杞崲涓哄崄杩涘埗銆佷簩杩涘埗銆佸崄鍏繘鍒舵垨浜嬩欢
 
   text-statistics:
-    title: 文本统计
-    description: 获取有关文本、字符数、字数、大小等的信息
+    title: 鏂囨湰缁熻
+    description: 鑾峰彇鏈夊叧鏂囨湰銆佸瓧绗︽暟銆佸瓧鏁般€佸ぇ灏忕瓑鐨勪俊鎭?
 
   text-to-nato-alphabet:
-    title: 文本转北约字母表
-    description: 将文本转换为北约拼音字母以进行口头传播。
+    title: 鏂囨湰杞寳绾﹀瓧姣嶈〃
+    description: 灏嗘枃鏈浆鎹负鍖楃害鎷奸煶瀛楁瘝浠ヨ繘琛屽彛澶翠紶鎾€?
 
   basic-auth-generator:
-    title: 基本身份验证生成器
-    description: 从用户名和密码生成 base64 基本身份验证标头。
+    title: 鍩烘湰韬唤楠岃瘉鐢熸垚鍣?
+    description: 浠庣敤鎴峰悕鍜屽瘑鐮佺敓鎴?base64 鍩烘湰韬唤楠岃瘉鏍囧ご銆?
 
   text-to-unicode:
-    title: 文本转 Unicode
-    description: 解析文本并将其转换为 unicode，反之亦然
+    title: 鏂囨湰杞?Unicode
+    description: 瑙ｆ瀽鏂囨湰骞跺皢鍏惰浆鎹负 unicode锛屽弽涔嬩害鐒?
 
   ipv4-range-expander:
-    title: IPv4范围扩展器
-    description: 给定起始和结束IPv4地址，此工具使用其CIDR表示法计算有效的IPv4网络。
+    title: IPv4鑼冨洿鎵╁睍鍣?
+    description: 缁欏畾璧峰鍜岀粨鏉烮Pv4鍦板潃锛屾宸ュ叿浣跨敤鍏禖IDR琛ㄧず娉曡绠楁湁鏁堢殑IPv4缃戠粶銆?
 
   text-diff:
-    title: 文本比较
-    description: 比较两个文本并查看它们之间的差异。
+    title: 鏂囨湰姣旇緝
+    description: 姣旇緝涓や釜鏂囨湰骞舵煡鐪嬪畠浠箣闂寸殑宸紓銆?
 
   otp-generator:
-    title: OTP代码生成器
-    description: 为多因素身份验证生成和验证基于时间的OTP（一次性密码）。
+    title: OTP浠ｇ爜鐢熸垚鍣?
+    description: 涓哄鍥犵礌韬唤楠岃瘉鐢熸垚鍜岄獙璇佸熀浜庢椂闂寸殑OTP锛堜竴娆℃€у瘑鐮侊級銆?
 
   url-encoder:
-    title: 编码/解码url格式的字符串
-    description: 编码为url编码格式（也称为“百分比编码”）或从中解码。
+    title: 缂栫爜/瑙ｇ爜url鏍煎紡鐨勫瓧绗︿覆
+    description: 缂栫爜涓簎rl缂栫爜鏍煎紡锛堜篃绉颁负鈥滅櫨鍒嗘瘮缂栫爜鈥濓級鎴栦粠涓В鐮併€?
 
   text-to-binary:
-    title: 文本到 ASCII 二进制
-    description: 将文本转换为其 ASCII 二进制表示形式，反之亦然。
+    title: 鏂囨湰鍒?ASCII 浜岃繘鍒?
+    description: 灏嗘枃鏈浆鎹负鍏?ASCII 浜岃繘鍒惰〃绀哄舰寮忥紝鍙嶄箣浜︾劧銆?
+
+ads:
+  dismissed: '广告已关闭'
+  click: '广告点击'
+  label: '广告'
