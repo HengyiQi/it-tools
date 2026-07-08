@@ -397,3 +397,9 @@ ads:
   dismissed: 'Ad dismissed'
   click: 'Ad clicked'
   label: 'Advertisement'
+
+footer:
+  privacy: 'Privacy Policy'
+  cookie: 'Cookie Policy'
+  disclaimer: 'Disclaimer'
+  contact: 'Contact Us'

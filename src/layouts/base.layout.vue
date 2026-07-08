@@ -1,9 +1,7 @@
 <script lang="ts" setup>
 import { NIcon, useThemeVars } from 'naive-ui';
-
 import { RouterLink } from 'vue-router';
 import { Heart, Home2, Menu2 } from '@vicons/tabler';
-
 import { storeToRefs } from 'pinia';
 import HeroGradient from '../assets/hero-gradient.svg?component';
 import MenuLayout from '../components/MenuLayout.vue';
@@ -51,7 +49,6 @@ const tools = computed<ToolCategory[]>(() => [
       <div class="sider-content">
         <div v-if="styleStore.isSmallScreen" flex flex-col items-center>
           <locale-selector w="90%" />
-
           <div flex justify-center>
             <NavbarButtons />
           </div>
@@ -61,9 +58,9 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div>
-            IT-Tools
+            恒仪IT工具箱
 
-            <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
+            <c-link target="_blank" rel="noopener" :href="`https://github.com/HengyiQi/it-tools/tree/v${version}`">
               v{{ version }}
             </c-link>
 
@@ -73,17 +70,23 @@ const tools = computed<ToolCategory[]>(() => [
                 target="_blank"
                 rel="noopener"
                 type="primary"
-                :href="`https://github.com/CorentinTh/it-tools/tree/${commitSha}`"
+                :href="`https://github.com/HengyiQi/it-tools/tree/${commitSha}`"
               >
                 {{ commitSha }}
               </c-link>
             </template>
           </div>
           <div>
-            © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://corentin.tech?utm_source=it-tools&utm_medium=footer">
-              Corentin Thomasset
-            </c-link>
+            © {{ new Date().getFullYear() }} 恒仪IT工具箱
+          </div>
+          <div class="footer-links">
+            <RouterLink to="/privacy">{{ $t('footer.privacy') }}</RouterLink>
+            <span class="separator">|</span>
+            <RouterLink to="/cookie-policy">{{ $t('footer.cookie') }}</RouterLink>
+            <span class="separator">|</span>
+            <RouterLink to="/disclaimer">{{ $t('footer.disclaimer') }}</RouterLink>
+            <span class="separator">|</span>
+            <RouterLink to="/contact">{{ $t('footer.contact') }}</RouterLink>
           </div>
         </div>
       </div>
@@ -141,17 +144,6 @@ const tools = computed<ToolCategory[]>(() => [
 </template>
 
 <style lang="less" scoped>
-// ::v-deep(.n-layout-scroll-container) {
-//     @percent: 4%;
-//     @position: 25px;
-//     @size: 50px;
-//     @color: #eeeeee25;
-//     background-image: radial-gradient(@color @percent, transparent @percent),
-//         radial-gradient(@color @percent, transparent @percent);
-//     background-position: 0 0, @position @position;
-//     background-size: @size @size;
-// }
-
 .support-button {
   background: rgb(37, 99, 108);
   background: linear-gradient(48deg, rgba(37, 99, 108, 1) 0%, rgba(59, 149, 111, 1) 60%, rgba(20, 160, 88, 1) 100%);
@@ -170,6 +162,27 @@ const tools = computed<ToolCategory[]>(() => [
   color: #838587;
   margin-top: 20px;
   padding: 20px 0;
+  font-size: 13px;
+
+  .footer-links {
+    margin-top: 8px;
+    font-size: 12px;
+
+    a {
+      color: #838587;
+      text-decoration: none;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #18a058;
+      }
+    }
+
+    .separator {
+      margin: 0 6px;
+      color: #ccc;
+    }
+  }
 }
 
 .sider-content {

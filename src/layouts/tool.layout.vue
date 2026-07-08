@@ -1,4 +1,4 @@
-﻿<script lang="ts" setup>
+<script lang="ts" setup>
 import { useRoute } from 'vue-router';
 import { useHead } from '@vueuse/head';
 import type { HeadObject } from '@vueuse/head';

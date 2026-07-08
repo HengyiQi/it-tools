@@ -393,3 +393,9 @@ ads:
   dismissed: '广告已关闭'
   click: '广告点击'
   label: '广告'
+
+footer:
+  privacy: '隐私政策'
+  cookie: 'Cookie 政策'
+  disclaimer: '免责声明'
+  contact: '联系我们'

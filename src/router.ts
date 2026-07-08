@@ -5,17 +5,20 @@ import NotFound from './pages/404.page.vue';
 import { tools } from './tools';
 import { config } from './config';
 import { routes as demoRoutes } from './ui/demo/demo.routes';
-const toolsRoutes = tools.map(({ path, name, component, ...config }) => ({
+
+const toolsRoutes = tools.map(({ path, name, component, ...toolConfig }) => ({
   path,
   name,
   component,
-  meta: { isTool: true, layout: layouts.toolLayout, name, ...config },
+  meta: { isTool: true, layout: layouts.toolLayout, name, ...toolConfig },
 }));
+
 const toolsRedirectRoutes = tools
   .filter(({ redirectFrom }) => redirectFrom && redirectFrom.length > 0)
   .flatMap(
     ({ path, redirectFrom }) => redirectFrom?.map(redirectSource => ({ path: redirectSource, redirect: path })) ?? [],
   );
+
 const router = createRouter({
   history: createWebHistory(config.app.baseUrl),
   routes: [
@@ -27,22 +30,33 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      component: () => import('./pages/About.vue'),
+      component: () => import('./views/About.vue'),
     },
-    ...toolsRoutes,
-    ...toolsRedirectRoutes,
-    ...(config.app.env === 'development' ? demoRoutes : []),
     {
       path: '/privacy',
       name: 'privacy',
-      component: () => import('./views/Privacy.vue')
+      component: () => import('./views/Privacy.vue'),
+    },
+    {
+      path: '/cookie-policy',
+      name: 'cookiePolicy',
+      component: () => import('./views/CookiePolicy.vue'),
+    },
+    {
+      path: '/disclaimer',
+      name: 'disclaimer',
+      component: () => import('./views/Disclaimer.vue'),
     },
     {
       path: '/contact',
       name: 'contact',
-      component: () => import('./views/Contact.vue')
+      component: () => import('./views/Contact.vue'),
     },
+    ...toolsRoutes,
+    ...toolsRedirectRoutes,
+    ...(config.app.env === 'development' ? demoRoutes : []),
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   ],
 });
+
 export default router;

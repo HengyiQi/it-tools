@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { IconDragDrop, IconHeart } from '@tabler/icons-vue';
 import { useHead } from '@vueuse/head';
 import { computed, ref } from 'vue';
@@ -13,13 +13,18 @@ import { useTracker } from '@/modules/tracker/tracker.services';
 const toolStore = useToolStore();
 const { tracker } = useTracker();
 
-useHead({ title: 'IT Tools - Handy online tools for developers' });
+useHead({
+  title: '恒仪IT工具箱 - 免费在线开发者工具集合',
+  meta: [
+    { name: 'description', content: '恒仪IT工具箱提供80+免费在线开发者工具，包括JSON格式化、Base64编解码、Hash计算、正则表达式测试等。所有运算在浏览器本地完成，保护数据安全。' },
+    { name: 'keywords', content: 'IT工具,开发者工具,JSON格式化,Base64,Hash计算,正则表达式,日期转换,在线工具,免费工具' },
+  ],
+});
 const { t } = useI18n();
 
 const favoriteTools = computed(() => toolStore.favoriteTools);
 const showHomeAd = ref(true);
 
-// Update favorite tools order when drag is finished
 function onUpdateFavoriteTools() {
   toolStore.updateFavoriteTools(favoriteTools.value);
 }
@@ -30,23 +35,12 @@ function handleAdClick() {
 </script>
 
 <template>
-  <!-- 顶部广告位 -->
   <AdBanner
     v-if="showHomeAd"
     position="home-top"
     @close="showHomeAd = false"
     @click="handleAdClick"
-  >
-    <!--
-      在这里插入您的广告代码，例如：
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-           data-ad-slot="XXXXXXXXXX"
-           data-ad-format="auto"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    -->
-  </AdBanner>
+  />
 
   <div class="container">
     <div class="pt-50px">
@@ -55,7 +49,7 @@ function handleAdClick() {
           <ColoredCard v-if="config.showBanner" :title="$t('home.follow.title')" :icon="IconHeart">
             {{ $t('home.follow.p1') }}
             <a
-              href="https://github.com/CorentinTh/it-tools"
+              href="https://github.com/HengyiQi/it-tools"
               rel="noopener"
               target="_blank"
               :aria-label="$t('home.follow.githubRepository')"
@@ -113,11 +107,7 @@ function handleAdClick() {
     </div>
   </div>
 
-  <!-- 底部广告位 -->
-  <AdBanner
-    position="home-bottom"
-    class="mt-20px mb-40px"
-  />
+  <AdBanner position="home-bottom" class="mt-20px mb-40px" />
 </template>
 
 <style scoped lang="less">

@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 interface Props {
   /** 广告位标识，用于区分不同位置的广告 */
   position?: 'home-top' | 'home-bottom' | 'tool-sidebar' | 'tool-bottom'
